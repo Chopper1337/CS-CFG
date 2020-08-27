@@ -1,6 +1,10 @@
 # Chopper's Counter-Strike: Global Offensive Configuation
  My CSGO autoexec.cfg and autowelcome.cfg
  
+ "Chopper" not "chopper", difference is he's pro, I'm not :))))
+ 
+ Here's his settings [ProSettings.net](https://prosettings.net/counterstrike/chopper/)
+ 
  This won't change your video (Resolution etc.) options but it will change everything else.
 # Features
 * Modified rates based on ping
@@ -11,13 +15,32 @@
 * Various sounds for switching weapon, pressing the use key etc. (From FranzJ)
 * Radar size adjustment bind
 * Clearing of decals
+* Lowered GPU power usage in menus
 * Many other adjustments...
 
 # Installation
 **Backup your original config!**
 
-Drop the [autoexec.cfg](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/autoexec.cfg) (and optionally, [autowelcome.cfg](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/autowelcome.cfg)) into the following directory
-`\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg`
+1. Download [autoexec.cfg](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/autoexec.cfg) and open in any text editor. 
+(Optional: Download [autowelcome.cfg](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/autowelcome.cfg))
+
+2. Change `cl_interp` and `cl_interp_ratio` according to your average ping, follow this table:
+
+| Ping (ms) | cl_interp | cl_interp_ratio    |
+|-----------|-----------|-------------------|
+| 1-29      | 0.007813  | 1 |
+| 30-59     | 0.015625  | 1 |
+| 60-89     | 0.015625  | 2 |
+| 90-100    | 0.03125   | 2 |
+
+3. Change `freq` in the "Video" section (Line 31) to your monitors refresh rate
+
+4. Change `hud_scaling` in the "HUD" section (Line 69) according to your preference.
+
+5. Drop the autoexec.cfg (and autowelcome.cfg ) into the following directory
+`\Counter-Strike Global Offensive\csgo\cfg\`<br>
+(Default location:
+`C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\`)
 
 Changes should be automatically applied, if you change a setting through console while in game
 you can press the delete key to re-run the autoexec.cfg and it'll revert to the setting specified there.
@@ -74,3 +97,5 @@ Probably missed some, read through the config, make your own changes
 [Sound settings](https://steamcommunity.com/sharedfiles/filedetails/?id=703059693)
 
 [Budi's CFG](https://gist.github.com/nickbudi/3916475)
+
+[Launch options](https://totalcsgo.com/launch-options)
