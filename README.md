@@ -32,7 +32,7 @@
 3. Change `freq` in the "Video" section (Line 31) to your monitors refresh rate
 
 4. Drop the autoexec.cfg (and autowelcome.cfg ) into the following directory
-`\Counter-Strike Global Offensive\csgo\cfg\`
+`\Counter-Strike Global Offensive\csgo\cfg\`<br>
 (Default location:
 `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\`)
 
