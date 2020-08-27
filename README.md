@@ -66,3 +66,11 @@ you can press the delete key to re-run the autoexec.cfg and it'll revert to the 
 **Equals**: Adjusts game volume between the following values `1 0.7 0.1 0`
 
 Probably missed some, read through the config, make your own changes
+
+# Sources
+
+[Rates (Net code)](https://steamcommunity.com/sharedfiles/filedetails/?id=795437982)
+
+[Sound settings](https://steamcommunity.com/sharedfiles/filedetails/?id=703059693)
+
+[Budi's CFG](https://gist.github.com/nickbudi/3916475)
