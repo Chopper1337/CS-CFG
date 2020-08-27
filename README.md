@@ -11,6 +11,7 @@
 * Various sounds for switching weapon, pressing the use key etc. (From FranzJ)
 * Radar size adjustment bind
 * Clearing of decals
+* Lowered GPU power usage in menus
 * Many other adjustments...
 
 # Installation
