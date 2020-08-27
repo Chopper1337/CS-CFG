@@ -6,6 +6,11 @@
  Here's his settings [ProSettings.net](https://prosettings.net/counterstrike/chopper/)
  
  This won't change your video (Resolution etc.) options but it will change everything else.
+ 
+ **Mouse**: 1khz polling rate, 800dpi, 6/11 Windows sens. and 1.5 in game sens. (Gigabyte M6900)
+ 
+ **Video**: 1920x1080, 144hz (Sometimes 1440x1080) (Benq Zowie XL2411P, RX580)
+ 
 # Features
 * Modified rates based on ping
 * Jump throw bind
@@ -37,7 +42,9 @@
 
 4. Change `hud_scaling` in the "HUD" section (Line 69) according to your preference.
 
-5. Drop the autoexec.cfg (and autowelcome.cfg ) into the following directory
+5. Modify the crosshair in the crosshair section (Line 115) or delete that section entirely so it doesn't change your current crosshair.
+
+6. Drop the autoexec.cfg (and autowelcome.cfg ) into the following directory
 `\Counter-Strike Global Offensive\csgo\cfg\`<br>
 (Default location:
 `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\`)
@@ -47,7 +54,7 @@ you can press the delete key to re-run the autoexec.cfg and it'll revert to the 
 
 # Launch Options
 
-`-nojoy -novid  -d3d9ex -threads 12 -tickrate 128 -console -high +cl_updaterate 128 +r_dynamic 0  -r_emulate_g`
+`-nojoy -novid  -d3d9ex -threads [YOUR CPU THREAD COUNT HERE eg. 12] -tickrate 128 -console -high +cl_updaterate 128 +r_dynamic 0  -r_emulate_g`
 
 # Binds
 **Middle click**: Toggles scroll wheel between BHOP and weapon switching
