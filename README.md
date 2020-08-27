@@ -33,10 +33,8 @@
 
 4. Drop the autoexec.cfg (and autowelcome.cfg ) into the following directory
 `\Counter-Strike Global Offensive\csgo\cfg\`
-
-Default location:
-
-`C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\`
+(Default location:
+`C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\`)
 
 Changes should be automatically applied, if you change a setting through console while in game
 you can press the delete key to re-run the autoexec.cfg and it'll revert to the setting specified there.
