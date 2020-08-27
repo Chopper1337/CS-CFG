@@ -17,8 +17,22 @@
 # Installation
 **Backup your original config!**
 
-Drop the [autoexec.cfg](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/autoexec.cfg) (and optionally, [autowelcome.cfg](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/autowelcome.cfg)) into the following directory
+1. Open autoexec.cfg in notepad
+
+2. Change cl_interp and cl_interp_ratio according to your average ping, follow this table:
+
+| Ping (ms) | cl_interp | cl_interp_ratio    |
+|-----------|-----------|-------------------|
+| 1-29      | 0.007813  | 1 |
+| 30-59     | 0.015625  | 1 |
+| 60-89     | 0.015625  | 2 |
+| 90-100    | 0.03125   | 2 |
+
+3. Change `freq` in the "Video" section (Line 31) to your monitors refresh rate
+
+4. Drop the [autoexec.cfg](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/autoexec.cfg) (and optionally, [autowelcome.cfg](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/autowelcome.cfg)) into the following directory
 `\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg`
+
 
 Changes should be automatically applied, if you change a setting through console while in game
 you can press the delete key to re-run the autoexec.cfg and it'll revert to the setting specified there.
