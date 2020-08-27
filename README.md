@@ -91,3 +91,5 @@ Probably missed some, read through the config, make your own changes
 [Sound settings](https://steamcommunity.com/sharedfiles/filedetails/?id=703059693)
 
 [Budi's CFG](https://gist.github.com/nickbudi/3916475)
+
+[Launch options](https://totalcsgo.com/launch-options)
