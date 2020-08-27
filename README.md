@@ -6,6 +6,11 @@
  Here's his settings [ProSettings.net](https://prosettings.net/counterstrike/chopper/)
  
  This won't change your video (Resolution etc.) options but it will change everything else.
+ 
+ **Mouse**: 1khz polling rate, 800dpi, 6/11 Windows sens. and 1.5 in game sens. (Gigabyte M6900)
+ 
+ **Video**: 1920x1080, 144hz (Sometimes 1440x1080) (Benq Zowie XL2411P, RX580)
+ 
 # Features
 * Modified rates based on ping
 * Jump throw bind
