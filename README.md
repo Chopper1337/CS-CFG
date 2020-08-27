@@ -61,8 +61,8 @@ you can press the delete key to re-run the autoexec.cfg and it'll revert to the 
 
 **0**: Toggles voice_enable
 
-**-**: Toggles voice_scale
+**Negative/Minus**: Toggles voice_scale
 
-**=**: Adjusts game volume between the following values `1 0.7 0.1 0`
+**Equals**: Adjusts game volume between the following values `1 0.7 0.1 0`
 
 Probably missed some, read through the config, make your own changes
