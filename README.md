@@ -1,6 +1,10 @@
 # Chopper's Counter-Strike: Global Offensive Configuation
  My CSGO autoexec.cfg and autowelcome.cfg
  
+ "Chopper" not "chopper", difference is he's pro, I'm not :))))
+ 
+ Here's his settings [ProSettings.net](https://prosettings.net/counterstrike/chopper/)
+ 
  This won't change your video (Resolution etc.) options but it will change everything else.
 # Features
 * Modified rates based on ping
