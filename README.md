@@ -20,7 +20,7 @@
 1. Download [autoexec.cfg](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/autoexec.cfg) and open in any text editor. 
 (Optional: Download [autowelcome.cfg](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/autowelcome.cfg))
 
-2. Change cl_interp and cl_interp_ratio according to your average ping, follow this table:
+2. Change `cl_interp` and `cl_interp_ratio` according to your average ping, follow this table:
 
 | Ping (ms) | cl_interp | cl_interp_ratio    |
 |-----------|-----------|-------------------|
