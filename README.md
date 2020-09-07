@@ -87,7 +87,7 @@ you can press the delete key to re-run the autoexec.cfg and it'll revert to the 
 
 **Z,X,C**: Radio commands
 
-**7**: Toggles noclip
+**7**: Toggles noclip and debug mode
 
 **0**: Toggles voice_enable
 
