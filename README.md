@@ -54,7 +54,7 @@ you can press the delete key to re-run the autoexec.cfg and it'll revert to the 
 
 # Launch Options
 
-`-nojoy -novid  -d3d9ex -threads [YOUR CPU THREAD COUNT HERE eg. 12] -tickrate 128 -console -high +cl_updaterate 128 +r_dynamic 0  -r_emulate_g`
+`-nojoy -novid  -d3d9ex -threads [YOUR CPU THREAD COUNT HERE eg. 12] -tickrate 128 -console -high +cl_updaterate 128  -r_emulate_g`
 
 # Binds
 **Middle click**: Toggles scroll wheel between BHOP and weapon switching
