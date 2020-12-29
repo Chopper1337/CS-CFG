@@ -22,6 +22,7 @@
 * Clearing of decals
 * Lowered GPU power usage in menus
 * Surf Mode
+* CSS viewmodel with minimum weapon movement
 * Many other adjustments...
 
 # Installation
