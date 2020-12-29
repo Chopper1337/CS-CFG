@@ -9,7 +9,7 @@
  
  **Mouse**: 1khz polling rate, 800dpi, 6/11 Windows sens. and 1.5 in game sens. ([Logitech G PRO Wired](https://www.amazon.co.uk/gp/product/B07L9FJS98))
  
- **Video**: 1280x960, 144hz, All settings on lowest (Sometimes 1440x1080) ([Benq Zowie XL2411P](https://www.amazon.co.uk/BenQ-XL2411P-Sports-Adjustable-eQualizer/dp/B075JGL4WV), GTX 1080Ti)
+ **Video**: 1440x1080, 144hz, All settings on lowest ([Benq Zowie XL2411P](https://www.amazon.co.uk/BenQ-XL2411P-Sports-Adjustable-eQualizer/dp/B075JGL4WV), GTX 1080Ti)
  
 # Features
 * Modified rates based on ping
