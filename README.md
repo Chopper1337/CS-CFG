@@ -7,9 +7,9 @@
  
  This won't change your video (Resolution etc.) options but it will change everything else.
  
- **Mouse**: 1khz polling rate, 800dpi, 6/11 Windows sens. and 1.5 in game sens. (Gigabyte M6900)
+ **Mouse**: 1khz polling rate, 800dpi, 6/11 Windows sens. and 1.5 in game sens. ([Logitech G PRO Wired](https://www.amazon.co.uk/gp/product/B07L9FJS98))
  
- **Video**: 1920x1080, 144hz (Sometimes 1440x1080) (Benq Zowie XL2411P, RX580)
+ **Video**: 1280x960, 144hz (Sometimes 1440x1080) ([Benq Zowie XL2411P](https://www.amazon.co.uk/BenQ-XL2411P-Sports-Adjustable-eQualizer/dp/B075JGL4WV), GTX 1080Ti)
  
 # Features
 * Modified rates based on ping
@@ -38,13 +38,11 @@
 | 60-89     | 0.015625  | 2 |
 | 90-100    | 0.03125   | 2 |
 
-3. Change `freq` in the "Video" section (Line 31) to your monitors refresh rate
+3. Change `hud_scaling` in the "HUD" section (Line 83) according to your preference.
 
-4. Change `hud_scaling` in the "HUD" section (Line 69) according to your preference.
+4. Modify the crosshair in the crosshair section (Line 128) or delete that section entirely so it doesn't change your current crosshair.
 
-5. Modify the crosshair in the crosshair section (Line 115) or delete that section entirely so it doesn't change your current crosshair.
-
-6. Drop the autoexec.cfg (and autowelcome.cfg ) into the following directory
+5. Drop the autoexec.cfg (and autowelcome.cfg ) into the following directory
 `\Counter-Strike Global Offensive\csgo\cfg\`<br>
 (Default location:
 `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\`)
@@ -94,6 +92,8 @@ you can press the delete key to re-run the autoexec.cfg and it'll revert to the 
 **Negative/Minus**: Toggles voice_scale
 
 **Equals**: Adjusts game volume between the following values `1 0.7 0.1 0`
+
+**Comma**: Ping crosshair location
 
 Probably missed some, read through the config, make your own changes
 
