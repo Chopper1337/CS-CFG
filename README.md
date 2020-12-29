@@ -48,7 +48,7 @@
 `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\`)
 
 Changes should be automatically applied, if you change a setting through console while in game
-you can press the delete key to re-run the autoexec.cfg and it'll revert to the setting specified there.
+you can press the delete key to re-run the autoexec.cfg (or type "exec autoexec" in console) and it'll revert to the setting specified there.
 
 # Launch Options
 
