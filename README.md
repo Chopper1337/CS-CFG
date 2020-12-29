@@ -1,7 +1,7 @@
 # Chopper's Counter-Strike: Global Offensive Configuation
  My CSGO autoexec.cfg and autowelcome.cfg
  
- "Chopper" not "chopper", difference is he's pro, I'm not :))))
+ "Chopper" not "[chopper](https://liquipedia.net/counterstrike/Chopper)", difference is he's pro, I'm not :))))
  
  Here's his settings [ProSettings.net](https://prosettings.net/counterstrike/chopper/)
  
@@ -9,7 +9,7 @@
  
  **Mouse**: 1khz polling rate, 800dpi, 6/11 Windows sens. and 1.5 in game sens. ([Logitech G PRO Wired](https://www.amazon.co.uk/gp/product/B07L9FJS98))
  
- **Video**: 1280x960, 144hz (Sometimes 1440x1080) ([Benq Zowie XL2411P](https://www.amazon.co.uk/BenQ-XL2411P-Sports-Adjustable-eQualizer/dp/B075JGL4WV), GTX 1080Ti)
+ **Video**: 1280x960, 144hz, All settings on lowest (Sometimes 1440x1080) ([Benq Zowie XL2411P](https://www.amazon.co.uk/BenQ-XL2411P-Sports-Adjustable-eQualizer/dp/B075JGL4WV), GTX 1080Ti)
  
 # Features
 * Modified rates based on ping
@@ -59,11 +59,11 @@ you can press the delete key to re-run the autoexec.cfg and it'll revert to the 
 
 **Insert**: Enters bot warmup
 
-**Home**: Spectate
+**Home**: Switch to Spectator
 
 **Delete**: Executes autoexec.cfg again
 
-**Mouse 4, Mouse 5**: Equip Smoke or Flashbang
+**Mouse 4, Mouse 5**: Equip Smoke or Flash
 
 **Square Brackets**: Adjust radar zoom
 
@@ -71,7 +71,7 @@ you can press the delete key to re-run the autoexec.cfg and it'll revert to the 
 
 **Backslash**: Team chat
 
-**F2**: Rebuy
+**F2**: Re-buy last loadout
 
 **E**: Use key
 
@@ -79,7 +79,7 @@ you can press the delete key to re-run the autoexec.cfg and it'll revert to the 
 
 **N**: Jump throw, equip a nade, hold mouse1 and then hold N to jump throw
 
-**T**: Throw molotov / Show mouse on scoreboard
+**T**: Throw Molotov / Show mouse on scoreboard
 
 **V**: Voice chat
 
