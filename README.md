@@ -21,6 +21,7 @@
 * Radar size adjustment bind
 * Clearing of decals
 * Lowered GPU power usage in menus
+* Surf Mode
 * Many other adjustments...
 
 # Installation
@@ -66,6 +67,8 @@ you can press the delete key to re-run the autoexec.cfg (or type "exec autoexec"
 **Mouse 4, Mouse 5**: Equip Smoke or Flash
 
 **Square Brackets**: Adjust radar zoom
+
+**Right Shift**: Surf mode (300fps limit, mouse4 and mouse5 are mapped to turn left and right)
 
 **Enter**: Global chat
 
