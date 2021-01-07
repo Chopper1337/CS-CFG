@@ -106,8 +106,14 @@ Probably missed some, read through the config, make your own changes
 
 # Other Things of Note
 
-* Viewing the scoreboard will toggle `cl_showpos` and `net_graph`
-* HUD is scaled down to take up less space `hud_scaling "0.65"` and is also green for visibility `cl_hud_color "8"`
+* HUD takes less space and is on bottom of screen <br>
+![](https://github.com/Chopper1337/CSGO-CFG/raw/master/Screenshots/players-alive.jpg)
+* Viewing the scoreboard will toggle `cl_showpos` and `net_graph` <br>
+![](https://github.com/Chopper1337/CSGO-CFG/raw/master/Screenshots/scoreboard-info.jpg)
+* HUD is scaled down to take up less space `hud_scaling "0.65"` and is also green for visibility `cl_hud_color "8"`<br>
+![](https://github.com/Chopper1337/CSGO-CFG/raw/master/Screenshots/0screenshot.jpg)
+* Optional welcome message <br>
+![](https://github.com/Chopper1337/CSGO-CFG/raw/master/Screenshots/welcome%20message.jpg)
 
 # Sources
 
