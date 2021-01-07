@@ -97,9 +97,9 @@ If you change a setting through console while in game, you can press the **Delet
 
 **Z,X,C**: Radio commands
 
-**7**: Toggles noclip and debug mode
+**7**: Toggles `noclip` and debug mode
 
-**0**: Toggles voice_enable
+**0**: Toggles `voice_enable`
 
 **Negative/Minus**: Toggles voice_scale
 
