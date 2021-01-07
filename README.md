@@ -1,10 +1,12 @@
 # Chopper's Counter-Strike: Global Offensive Configuation
 My CSGO config, based on [Budi's config](https://gist.github.com/nickbudi/3916475)
-# Info
- This config is by "Chopper" not "[chopper](https://liquipedia.net/counterstrike/Chopper)", difference is he's pro, I'm not :))))
+
+This config is by "Chopper" not "[chopper](https://liquipedia.net/counterstrike/Chopper)", difference is he's pro, I'm not :))))
  
  Here's his settings [ProSettings.net](https://prosettings.net/counterstrike/chopper/)
-  
+# Info
+Note that the binds in this CFG are created around the QWERTY UK/Ireland keyboard layout
+
  **Mouse**: 1khz polling rate, 800dpi, 6/11 Windows sens. and 1.5 in game sens. ([Logitech G PRO Wired](https://www.amazon.co.uk/gp/product/B07L9FJS98))
  
  **Video**: 1280x960, 144hz, All settings on lowest ([Benq Zowie XL2411P](https://www.amazon.co.uk/BenQ-XL2411P-Sports-Adjustable-eQualizer/dp/B075JGL4WV), GTX 1080Ti)
@@ -15,7 +17,7 @@ My CSGO config, based on [Budi's config](https://gist.github.com/nickbudi/391647
 * Togglable scroll B-Hop
 * Warmup with bots
 * Easy adjustments for game and voice volume
-* Various sounds for switching weapon, pressing the use key etc. (From FranzJ)
+* Various Half Life sounds for switching weapon, pressing the use key etc. (From [FranzJ](https://www.youtube.com/watch?v=KIck3ZEXIfU))
 * Radar size adjustment bind
 * Clearing of decals
 * Lowered GPU power usage in menus
@@ -85,7 +87,7 @@ If you change a setting through console while in game, you can press the **Delet
 
 **N**: Jump throw, equip a nade, hold mouse1 and then hold N to jump throw
 
-**T**: Throw Molotov / Show mouse on scoreboard
+**T**: Equip Molotov / Show mouse on scoreboard
 
 **V**: Voice chat
 
@@ -119,6 +121,8 @@ Probably missed some, read through the config, make your own changes
 [Rates (Net code)](https://steamcommunity.com/sharedfiles/filedetails/?id=795437982)
 
 [Sound settings](https://steamcommunity.com/sharedfiles/filedetails/?id=703059693)
+
+[FranzJ Half Life Sounds](https://www.youtube.com/watch?v=KIck3ZEXIfU)
 
 [Budi's CFG](https://gist.github.com/nickbudi/3916475)
 
