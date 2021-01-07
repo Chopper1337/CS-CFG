@@ -29,7 +29,7 @@
 **Backup your original config!**
 
 1. Download [autoexec.cfg](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/autoexec.cfg) and open in any text editor. 
-(Optional: Download [autowelcome.cfg](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/autowelcome.cfg))
+(Optional: Download [autowelcome.cfg](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/autowelcome.cfg) and [video.txt](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/video.txt))
 
 2. Change `cl_interp` and `cl_interp_ratio` according to your average ping, follow this table:
 
@@ -48,6 +48,9 @@
 `\Counter-Strike Global Offensive\csgo\cfg\`<br>
 (Default location:
 `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\`)
+
+If you downloaded [video.txt](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/video.txt), place it in
+`\Steam\userdata\[YOUR USER ID]\730\local\cfg`
 
 Changes should be automatically applied, if you change a setting through console while in game
 you can press the delete key to re-run the autoexec.cfg (or type "exec autoexec" in console) and it'll revert to the setting specified there.
@@ -100,6 +103,11 @@ you can press the delete key to re-run the autoexec.cfg (or type "exec autoexec"
 **Comma**: Ping crosshair location
 
 Probably missed some, read through the config, make your own changes
+
+# Other Things of Note
+
+* Viewing the scoreboard will toggle `cl_showpos` and `net_graph`
+* HUD is scaled down to take up less space `hud_scaling "0.65"` and is also green for visibility `cl_hud_color "8"`
 
 # Sources
 
