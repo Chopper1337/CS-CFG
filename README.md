@@ -1,11 +1,13 @@
 # Chopper's Counter-Strike: Global Offensive Configuation
-My CSGO config, based on [Budi's config](https://gist.github.com/nickbudi/3916475)
+My CSGO config, based on [Budi's config](https://gist.github.com/nickbudi/3916475).
 
 This config is by "Chopper" not "[chopper](https://liquipedia.net/counterstrike/Chopper)", difference is he's pro, I'm not :))))
  
  Here's his settings [ProSettings.net](https://prosettings.net/counterstrike/chopper/)
 # Info
 Note that the binds in this CFG are created around the QWERTY UK/Ireland keyboard layout
+
+**Last update**: 07/01/21
 
  **Mouse**: 1khz polling rate, 800dpi, 6/11 Windows sens. and 1.5 in game sens. ([Logitech G PRO Wired](https://www.amazon.co.uk/gp/product/B07L9FJS98))
  
@@ -28,10 +30,10 @@ Note that the binds in this CFG are created around the QWERTY UK/Ireland keyboar
 # Installation
 [**>>>>Backup your original config!<<<<**](https://youtu.be/tsXrdzcbmbM?t=30)
 
-1. Download [autoexec.cfg](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/autoexec.cfg) and open in any text editor. 
+**1.** Download [autoexec.cfg](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/autoexec.cfg) and open in any text editor. 
 (Optional: Download [autowelcome.cfg](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/autowelcome.cfg) and [video.txt](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/video.txt))
 
-2. Change `cl_interp` and `cl_interp_ratio` according to your average ping, following this table:
+**2.** Change `cl_interp` and `cl_interp_ratio` according to your average ping, following this table:
 
 | Ping (ms) | cl_interp | cl_interp_ratio    |
 |-----------|-----------|-------------------|
@@ -40,17 +42,19 @@ Note that the binds in this CFG are created around the QWERTY UK/Ireland keyboar
 | 60-89     | 0.015625  | 2 |
 | 90-100    | 0.03125   | 2 |
 
-3. Change `hud_scaling` in the "HUD" section (Line 83) according to your preference.
+**3.** Change `hud_scaling` in the "HUD" section (Line 83) according to your preference.
 
-4. Modify or delete the crosshair section (Line 128). [View crosshair](https://github.com/Chopper1337/CSGO-CFG/raw/master/Screenshots/0screenshot.jpg)
+**4.** Modify or delete the crosshair section (Line 128). [View crosshair](https://github.com/Chopper1337/CSGO-CFG/raw/master/Screenshots/0screenshot.jpg)
 
-5. Save and drop the autoexec.cfg (and autowelcome.cfg ) into the following directory
+**5.** Save and drop the autoexec.cfg (and autowelcome.cfg ) into the following directory
 `\Counter-Strike Global Offensive\csgo\cfg\`<br>
 (Default location:
 `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\`)
 
 If you downloaded [video.txt](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/video.txt), place it in
 `\Steam\userdata\[YOUR USER ID]\730\local\cfg`
+
+Buy binds can be generated on [CSGOBindsGenerator.com](http://csgobindsgenerator.com/)
 
 Changes should be automatically applied on game launch.
 
