@@ -62,7 +62,7 @@ If you change a setting through console while in game, you can press the **Delet
 
 # Launch Options
 
-`-nojoy -novid -threads [INSERT NUM THREADS] -tickrate 128 -console -high +cl_updaterate 128 -r_emulate_gl`
+`-nojoy -novid -threads [INSERT NUM THREADS] -tickrate 128 -console -high +cl_updaterate 128 -useforcedmparms -noforcemspd -noforcemaccel -r_emulate_gl`
 
 # Binds
 **Middle click**: Toggles scroll wheel between B-Hop and weapon switching
