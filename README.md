@@ -62,7 +62,7 @@ If you change a setting through console while in game, you can press the **Delet
 
 # Launch Options
 
-`-nojoy -novid -threads [YOUR CPU THREAD COUNT HERE eg. 12] -tickrate 128 -console -high +cl_updaterate 128  -r_emulate_g`
+`-nojoy -novid -threads [INSERT NUM THREADS] -tickrate 128 -console -high +cl_updaterate 128 -r_emulate_gl`
 
 # Binds
 **Middle click**: Toggles scroll wheel between B-Hop and weapon switching
@@ -130,4 +130,6 @@ Probably missed some, read through the config, make your own changes
 
 [Budi's CFG](https://gist.github.com/nickbudi/3916475)
 
-[Launch options](https://totalcsgo.com/launch-options)
+[Launch options (Valve)](https://developer.valvesoftware.com/wiki/Command_Line_Options)
+
+[Launch options (Third Party)](https://totalcsgo.com/launch-options)
