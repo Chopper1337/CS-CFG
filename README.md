@@ -22,9 +22,9 @@ Note that the binds in this CFG are created around the QWERTY UK/Ireland keyboar
 * Various Half Life sounds for switching weapon, pressing the use key etc. (From [FranzJ](https://www.youtube.com/watch?v=KIck3ZEXIfU))
 * Radar size adjustment bind
 * Clearing of decals
-* Lowered GPU power usage in menus
+* Lowered GPU usage in menus
 * Surf Mode
-* CSS viewmodel with minimum weapon movement
+* CSS viewmodel with minimal weapon movement
 * Many other adjustments...
 
 # Installation
@@ -64,6 +64,16 @@ If you change a setting through console while in game, you can press the **Delet
 
 `-nojoy -novid -threads [INSERT NUM THREADS] -tickrate 128 -console -high +cl_updaterate 128 -useforcedmparms -noforcemspd -noforcemaccel -r_emulate_gl`
 
+Disables controller, startup videos and any filtering of mouse input.
+
+Changes default tick rate to 128, this means matches you host (such as 1v1s) will be 128 tick.
+
+Emulates OpenGL, provides a framerate boost for most GPUs.
+
+Sets the game's priority to High priority.
+
+**Optional extra**:  `-nogammaramp` will remove any in-game brighness/gamma adjustments. Increases contrast which makes it easier to see players in bright situations but may cause players blend into dark backgrounds. 
+
 # Binds
 **Middle click**: Toggles scroll wheel between B-Hop and weapon switching
 
@@ -92,6 +102,8 @@ If you change a setting through console while in game, you can press the **Delet
 **N**: Jump throw, equip a nade, hold mouse1 and then hold N to jump throw
 
 **T**: Equip Molotov / Show mouse on scoreboard
+
+**L**: Changes gamma value (Don't use `-nogammaramp` if you would like this value to work)
 
 **V**: Voice chat
 
