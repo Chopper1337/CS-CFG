@@ -7,11 +7,11 @@ This config is by "Chopper" not "[chopper](https://liquipedia.net/counterstrike/
 # Info
 Note that the binds in this CFG are created around the QWERTY UK/Ireland keyboard layout
 
-**Last update**: 07/01/21
+**Last update**: 15/04/21
 
- **Mouse**: 1khz polling rate, 800dpi, 6/11 Windows sens. and 1.5 in game sens. ([Logitech G PRO Wired](https://www.amazon.co.uk/gp/product/B07L9FJS98))
+ **Mouse**: 1khz polling rate, 400dpi, 6/11 Windows sens. and 1.5 in game sens. ([Logitech G PRO Wired](https://www.amazon.co.uk/gp/product/B07L9FJS98))
  
- **Video**: 1280x960, 144hz, All settings on lowest, Uber Shaders enabled ([Benq Zowie XL2411P](https://www.amazon.co.uk/BenQ-XL2411P-Sports-Adjustable-eQualizer/dp/B075JGL4WV), GTX 1080Ti)
+ **Video**: 1280x960, 190hz (Overclock), All settings on lowest, Uber Shaders enabled ([Benq Zowie XL2411P](https://www.amazon.co.uk/BenQ-XL2411P-Sports-Adjustable-eQualizer/dp/B075JGL4WV), GTX 1080Ti)
  
 # Features
 * Modified rates based on ping
@@ -62,17 +62,29 @@ If you change a setting through console while in game, you can press the **Delet
 
 # Launch Options
 
-`-nojoy -novid -threads [INSERT NUM THREADS] -tickrate 128 -console -high +cl_updaterate 128 -useforcedmparms -noforcemspd -noforcemaccel -r_emulate_gl`
+`-nojoy -novid  -tickrate 128 -console -high +cl_updaterate 128`
 
-Disables controller, startup videos and any filtering of mouse input.
+Disables controller and startup videos.
 
 Changes default tick rate to 128, this means matches you host (such as 1v1s) will be 128 tick.
 
-Emulates OpenGL, provides a framerate boost for most GPUs.
-
 Sets the game's priority to High priority.
 
-**Optional extra**:  `-nogammaramp` will remove any in-game brighness/gamma adjustments. Increases contrast which makes it easier to see players in bright situations but may cause players blend into dark backgrounds. 
+**Optional extras**: 
+
+`-nogammaramp` Will remove any in-game brighness/gamma adjustments. Increases contrast which makes it easier to see players in bright situations but may cause players blend into dark backgrounds. 
+
+`-threads #` Sets the number of CPU threads the game should try use, replace `#` with number of threads.
+
+`-useforcedmparms -noforcemspd -noforcemaccel` If you really want to be sure there's no mouse acceleration
+
+`-r_emulate_gl` "Emulates OpenGL on Windows, provides a framerate boost for most GPUs " - Valve
+
+**What I use**:
+
+`-freq 190 -nogammaramp -novid`
+
+
 
 # Binds
 **Middle click**: Toggles scroll wheel between B-Hop and weapon switching
@@ -103,7 +115,7 @@ Sets the game's priority to High priority.
 
 **T**: Equip Molotov / Show mouse on scoreboard
 
-**L**: Changes gamma value (Don't use `-nogammaramp` if you would like this value to work)
+**L**: Changes gamma value (Don't use `-nogammaramp` or `mat_monitorgamma_tv_enabled "0"` if you would like this value to work)
 
 **V**: Voice chat
 
