@@ -42,9 +42,9 @@ Note that the binds in this CFG are created around the QWERTY UK/Ireland keyboar
 | 60-89     | 0.015625  | 2 |
 | 90-100    | 0.03125   | 2 |
 
-**3.** Change `hud_scaling` in the "HUD" section (Line 83) according to your preference.
+**3.** Change `hud_scaling` in the "HUD" section (Line 88) according to your preference.
 
-**4.** Modify or delete the crosshair section (Line 128). [View crosshair](https://github.com/Chopper1337/CSGO-CFG/raw/master/Screenshots/0screenshot.jpg)
+**4.** Modify or delete the crosshair section (Line 133). [View crosshair](https://github.com/Chopper1337/CSGO-CFG/raw/master/Screenshots/0screenshot.jpg)
 
 **5.** Save and drop the autoexec.cfg (and autowelcome.cfg ) into the following directory
 `\Counter-Strike Global Offensive\csgo\cfg\`<br>
