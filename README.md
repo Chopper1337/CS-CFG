@@ -144,6 +144,25 @@ Probably missed some, read through the config, make your own changes
 * Optional welcome message <br>
 ![](https://github.com/Chopper1337/CSGO-CFG/raw/master/Screenshots/welcome%20message.jpg)
 
+# Notes on performance for CSGO
+
+Unless you're running a GT710, **the main thing to consider for CSGO is CPU performance**. The more utilisation the games gets of your CPU, the better your framerate will be. GPU isn't as important as all settings will be on lowest and most players are playing in a lower resolution such as 1280x960.
+
+**CSGO doesn't seem to utilise many cores**, so 4 very fast (Clock and IPC) cores will give a good FPS.
+
+**CPU clock speed boosting technologies** such as AMD's Precision Boost Overdrive **should be preferred over an all core overclock for CSGO**, unless you can get an all core OC higher than what PBO (or any equivalent) can provide.
+
+
+Be sure that your Windows power profile is set to **High Performance** or a similar equivalent while playing to prevent CPU throttling.
+
+**Removing bloat from your OS will help**.
+
+**Reduce your CPU usage** as much as possible when playing CSGO. Programs such as **web browsers will use enough CPU cycles to affect your FPS** even if they're idle while you play. I recommend using a lightweight third party Discord client, such as [Ripcord](https://cancel.fm/ripcord/ "Ripcord"),  if you must use Discord for communication while you play as discord itself it just another web browser running in the background.
+
+If your a Windows user, **Windows 10 LTSC will run the game better** than the latest version from Microsoft. If you want as much resources put towards your own programs and games, such as CSGO, and not so much on random background telemetry and analytic programs, it's a good idea to switch to an LTSC/Enterprise version of Windows.
+
+For Linux users, make sure you're using a kernel optimised for gaming such as [TKG](https://github.com/Frogging-Family/linux-tkg "TKG")
+
 # Sources
 
 [Rates (Net code)](https://steamcommunity.com/sharedfiles/filedetails/?id=795437982)
