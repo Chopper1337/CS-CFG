@@ -7,7 +7,7 @@ This config is by "Chopper" not "[chopper](https://liquipedia.net/counterstrike/
 # Info
 Note that the binds in this CFG are created around the QWERTY UK/Ireland keyboard layout
 
-**Last update**: 15/04/21
+**Last update**: 17/04/21
 
  **Mouse**: 1khz polling rate, 400dpi, 6/11 Windows sens. and 1.5 in game sens. ([Logitech G PRO Wired](https://www.amazon.co.uk/gp/product/B07L9FJS98))
  
@@ -83,6 +83,8 @@ Sets the game's priority to High priority.
 **What I use**:
 
 `-freq 190 -nogammaramp -novid`
+
+Sets 190Hz refresh rate for monitor, disables brightness/gamma adjustments and skips the "CSGO" splashscreen.
 
 
 
