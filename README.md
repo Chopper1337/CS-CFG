@@ -42,9 +42,9 @@ Note that the binds in this CFG are created around the QWERTY UK/Ireland keyboar
 | 60-89     | 0.015625  | 2 |
 | 90-100    | 0.03125   | 2 |
 
-**3.** Change `hud_scaling` in the "HUD" section (Line 88) according to your preference.
+**3.** Change `hud_scaling` in the "HUD" section (Line 91) according to your preference.
 
-**4.** Modify or delete the crosshair section (Line 133). [View crosshair](https://github.com/Chopper1337/CSGO-CFG/raw/master/Screenshots/0screenshot.jpg)
+**4.** Modify or delete the crosshair section (Line 136). [View crosshair](https://github.com/Chopper1337/CSGO-CFG/raw/master/Screenshots/0screenshot.jpg)
 
 **5.** Save and drop the autoexec.cfg (and autowelcome.cfg ) into the following directory
 `\Counter-Strike Global Offensive\csgo\cfg\`<br>
@@ -161,7 +161,7 @@ Be sure that your Windows power profile is set to **High Performance** or a simi
 
 **Reduce your CPU usage** as much as possible when playing CSGO. Programs such as **web browsers will use enough CPU cycles to affect your FPS** even if they're idle while you play. I recommend using a lightweight third party Discord client, such as [Ripcord](https://cancel.fm/ripcord/ "Ripcord"),  if you must use Discord for communication while you play as discord itself it just another web browser running in the background.
 
-If your a Windows user, **Windows 10 LTSC will run the game better** than the latest version from Microsoft. If you want as much resources put towards your own programs and games, such as CSGO, and not so much on random background telemetry and analytic programs, it's a good idea to switch to an LTSC/Enterprise version of Windows.
+If you are a Windows user, **Windows 10 LTSC will run the game better** than the latest version from Microsoft. If you want as much resources put towards your own programs and games, such as CSGO, and not so much on random background telemetry and analytic programs, it's a good idea to switch to an LTSC/Enterprise version of Windows.
 
 For Linux users, make sure you're using a kernel optimised for gaming such as [TKG](https://github.com/Frogging-Family/linux-tkg "TKG")
 
