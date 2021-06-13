@@ -7,11 +7,11 @@ This config is by "Chopper" not "[chopper](https://liquipedia.net/counterstrike/
 # Info
 Note that the binds in this CFG are created around the QWERTY UK/Ireland keyboard layout
 
-**Last update**: 17/04/21
+**Last update**: 13/06/21
 
- **Mouse**: 1khz polling rate, 400dpi, 6/11 Windows sens. and 1.5 in game sens. ([Logitech G PRO Wired](https://www.amazon.co.uk/gp/product/B07L9FJS98))
+ **Mouse**: 1khz polling rate, 800dpi, 6/11 Windows sens. and 0.9 in game sens. ([Logitech G PRO Wired](https://www.amazon.co.uk/gp/product/B07L9FJS98))
  
- **Video**: 1280x960, 190hz (Overclock), All settings on lowest, Uber Shaders enabled ([Benq Zowie XL2411P](https://www.amazon.co.uk/BenQ-XL2411P-Sports-Adjustable-eQualizer/dp/B075JGL4WV), GTX 1080Ti)
+ **Video**: 1920x1080, 144hz, All settings on lowest, Uber Shaders enabled ([Benq Zowie XL2411P](https://www.amazon.co.uk/BenQ-XL2411P-Sports-Adjustable-eQualizer/dp/B075JGL4WV), GTX 1080Ti)
  
 # Features
 * Modified rates based on ping
@@ -82,9 +82,9 @@ Sets the game's priority to High priority.
 
 **What I use**:
 
-`-freq 190 -nogammaramp -novid`
+`-nogammaramp -novid`
 
-Sets 190Hz refresh rate for monitor, disables brightness/gamma adjustments and skips the "CSGO" splashscreen.
+Disables brightness/gamma adjustments and skips the "CSGO" splashscreen.
 
 
 
@@ -117,7 +117,7 @@ Sets 190Hz refresh rate for monitor, disables brightness/gamma adjustments and s
 
 **T**: Equip Molotov / Show mouse on scoreboard
 
-**L**: Changes gamma value (Don't use `-nogammaramp` or `mat_monitorgamma_tv_enabled "0"` if you would like this value to work)
+**L**: Toggles `cl_righthand`
 
 **V**: Voice chat
 
