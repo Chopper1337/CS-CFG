@@ -11,7 +11,15 @@ Note that the binds in this CFG are created around the QWERTY UK/Ireland keyboar
 
  **Mouse**: 1khz polling rate, 800dpi, 6/11 Windows sens. and 0.9 in game sens. ([Logitech G PRO Wired](https://www.amazon.co.uk/gp/product/B07L9FJS98))
  
- **Video**: 1920x1080, 144hz, All settings on lowest, Uber Shaders enabled ([Benq Zowie XL2411P](https://www.amazon.co.uk/BenQ-XL2411P-Sports-Adjustable-eQualizer/dp/B075JGL4WV), GTX 1080Ti)
+ **Video**: 
+ 
+ * Resolution: 1280x960
+ * Shadows: High
+ * Uber Shaders enabled
+ * MSAA and "Texture Filtering Mode" to anything but disabled
+ * Everything else lowest.
+ 
+ ([Benq Zowie XL2411P](https://www.amazon.co.uk/BenQ-XL2411P-Sports-Adjustable-eQualizer/dp/B075JGL4WV), GTX 1080Ti)
  
 # Features
 * Modified rates based on ping
@@ -154,13 +162,21 @@ Unless you're running a GT710, **the main thing to consider for CSGO is CPU perf
 
 Be sure that your Windows power profile is set to **High Performance** or a similar equivalent while playing to prevent CPU throttling.
 
+Adjust **Texture Filtering Mode** and **MSAA** as these settings will impact performance significantly.
+
 **Removing bloat from your OS will help**.
 
 **Reduce your CPU usage** as much as possible when playing CSGO. Programs such as **web browsers will use enough CPU cycles to affect your FPS** even if they're idle while you play. I recommend using a lightweight third party Discord client, such as [Ripcord](https://cancel.fm/ripcord/ "Ripcord"),  if you must use Discord for communication while you play as discord itself it just another web browser running in the background.
 
-If you are a Windows user, **Windows 10 LTSC will run the game better** than the latest version from Microsoft. If you want as much resources put towards your own programs and games, such as CSGO, and not so much on random background telemetry and analytic programs, it's a good idea to switch to an LTSC/Enterprise version of Windows.
+If you are a Windows user, **Windows 10 LTSC/Enterprise will run the game better** than the latest version from Microsoft. If you want as much resources put towards your own programs and games, such as CSGO, and not so much on random background telemetry and analytic programs, it's a good idea to switch to an LTSC/Enterprise version of Windows.
 
-For Linux users, make sure you're using a kernel optimised for gaming such as [TKG](https://github.com/Frogging-Family/linux-tkg "TKG").
+For GNU+Linux users, make sure you're using a kernel optimised for gaming such as [TKG](https://github.com/Frogging-Family/linux-tkg "TKG"). Compile it with the best options for your CPU.
+
+You can also use [Gamemode](https://github.com/FeralInteractive/gamemode "Gamemode") with the launch parameters `gamemoderun %command%`. Don't expect gamemode to add much FPS, but it will make a difference.
+
+
+
+Reducing background load also applies to Linux but less so as most distros are lighter than an average Windows install.
 
 # Sources
 
