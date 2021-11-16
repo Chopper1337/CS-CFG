@@ -7,7 +7,7 @@ This config is by "Chopper" not "[chopper](https://liquipedia.net/counterstrike/
 # Info
 Note that the binds in this CFG are created around the QWERTY UK/Ireland keyboard layout
 
-**Last update**: 13/06/21
+**Last update**: 16/11/21
 
  **Mouse**: 1khz polling rate, 800dpi, 6/11 Windows sens. and 0.9 in game sens. ([Logitech G PRO Wired](https://www.amazon.co.uk/gp/product/B07L9FJS98))
  
@@ -65,13 +65,11 @@ If you change a setting through console while in game, you can press the **Delet
 
 # Launch Options
 
-`-nojoy -novid  -tickrate 128 -console -high +cl_updaterate 128`
+`-nojoy -novid  -tickrate 128 -console +cl_updaterate 128`
 
 Disables controller and startup videos.
 
 Changes default tick rate to 128, this means matches you host (such as 1v1s) will be 128 tick.
-
-Sets the game's priority to High priority.
 
 **Optional extras**: 
 
@@ -82,10 +80,6 @@ Sets the game's priority to High priority.
 `-useforcedmparms -noforcemspd -noforcemaccel` If you really want to be sure there's no mouse acceleration
 
 `-r_emulate_gl` "Emulates OpenGL on Windows, provides a framerate boost for most GPUs " - Valve
-
-**What I use**:
-
-`-nogammaramp -novid`
 
 Disables brightness/gamma adjustments and skips the "CSGO" splashscreen.
 
@@ -108,7 +102,7 @@ Disables brightness/gamma adjustments and skips the "CSGO" splashscreen.
 
 **Enter**: Global chat
 
-**Backslash**: Team chat
+**Period**: Team chat
 
 **F2**: Re-buy last loadout
 
@@ -166,7 +160,7 @@ Be sure that your Windows power profile is set to **High Performance** or a simi
 
 If you are a Windows user, **Windows 10 LTSC will run the game better** than the latest version from Microsoft. If you want as much resources put towards your own programs and games, such as CSGO, and not so much on random background telemetry and analytic programs, it's a good idea to switch to an LTSC/Enterprise version of Windows.
 
-For Linux users, make sure you're using a kernel optimised for gaming such as [TKG](https://github.com/Frogging-Family/linux-tkg "TKG")
+For Linux users, make sure you're using a kernel optimised for gaming such as [TKG](https://github.com/Frogging-Family/linux-tkg "TKG").
 
 # Sources
 
