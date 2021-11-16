@@ -89,9 +89,6 @@ Changes default tick rate to 128, this means matches you host (such as 1v1s) wil
 
 `-r_emulate_gl` "Emulates OpenGL on Windows, provides a framerate boost for most GPUs " - Valve
 
-Disables brightness/gamma adjustments and skips the "CSGO" splashscreen.
-
-
 
 # Binds
 **Middle click**: Toggles scroll wheel between B-Hop and weapon switching
