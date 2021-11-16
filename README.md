@@ -53,9 +53,9 @@ Note that the binds in this CFG are created around the QWERTY UK/Ireland keyboar
 **Note**: You can find your average ping on Valve servers by going to the "Latency" tab in your "Personal Game Data" for CSGO through the games list on your profile.
 
 
-**3.** Change `hud_scaling` in the "HUD" section (Line 91) according to your preference.
+**3.** Change `hud_scaling` in the "HUD" section (Line 94) according to your preference.
 
-**4.** Modify or delete the crosshair section (Line 136). [View crosshair](https://github.com/Chopper1337/CSGO-CFG/raw/master/Screenshots/0screenshot.jpg)
+**4.** Modify or delete the crosshair section (Line 139). [View crosshair](https://github.com/Chopper1337/CSGO-CFG/raw/master/Screenshots/0screenshot.jpg)
 
 **5.** Save and drop the autoexec.cfg (and autowelcome.cfg ) into the following directory
 `\Counter-Strike Global Offensive\csgo\cfg\`<br>
