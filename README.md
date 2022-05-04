@@ -5,21 +5,20 @@ This config is by "Chopper" not "[chopper](https://liquipedia.net/counterstrike/
  
  Here's his settings [ProSettings.net](https://prosettings.net/counterstrike/chopper/)
 # Info
-Note that the binds in this CFG are created around the QWERTY UK/Ireland keyboard layout
+Note that the binds in this CFG are created around the QWERTY UK keyboard layout
 
-**Last update**: 16/11/21
+**Last update**: 04/05/22
 
  **Mouse**: 1khz polling rate, 800dpi, 6/11 Windows sens. and 0.9 in game sens. ([Logitech G PRO Wired](https://www.amazon.co.uk/gp/product/B07L9FJS98))
  
  **Video**: 
  
  * Resolution: 1280x960
- * Shadows: High
  * Uber Shaders enabled
- * MSAA and "Texture Filtering Mode" to anything but disabled
+ * MSAA and "Texture Filtering Mode" varies between disabled and 4x
  * Everything else lowest.
  
- ([Benq Zowie XL2411P](https://www.amazon.co.uk/BenQ-XL2411P-Sports-Adjustable-eQualizer/dp/B075JGL4WV), GTX 1080Ti)
+ ([ASUS XG258Q](https://www.amazon.com/Asus-Ecran-PC-Gamer-XG258Q/dp/B075CKS1M4/), GTX 1080Ti)
  
 # Features
 * Modified rates based on ping
@@ -103,7 +102,7 @@ Changes default tick rate to 128, this means matches you host (such as 1v1s) wil
 
 **Square Brackets**: Adjust radar zoom
 
-**Right Shift**: Surf mode (300fps limit, mouse4 and mouse5 are mapped to turn left and right)
+**Right Shift**: Surf/KZ mode (300fps limit, mouse4 and mouse5 are mapped to turn left and right)
 
 **Enter**: Global chat
 
@@ -167,7 +166,7 @@ Adjust **Texture Filtering Mode** and **MSAA** as these settings will impact per
 
 If you are a Windows user, **Windows 10 LTSC/Enterprise will run the game better** than the latest version from Microsoft. If you want as much resources put towards your own programs and games, such as CSGO, and not so much on random background telemetry and analytic programs, it's a good idea to switch to an LTSC/Enterprise version of Windows.
 
-For GNU+Linux users, make sure you're using a kernel optimised for gaming such as [TKG](https://github.com/Frogging-Family/linux-tkg "TKG"). Compile it with the best options for your CPU.
+For Linux users, make sure you're using a kernel optimised for gaming such as [TKG](https://github.com/Frogging-Family/linux-tkg "TKG"). Compile it with the best options for your CPU.
 
 You can also use [Gamemode](https://github.com/FeralInteractive/gamemode "Gamemode") with the launch parameters `gamemoderun %command%`. Don't expect gamemode to add much FPS, but it will make a difference.
 
