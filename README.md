@@ -152,7 +152,7 @@ Probably missed some, read through the config, make your own changes
 
 Unless you're running a GT710, **the main thing to consider for CSGO is CPU performance**. The more utilisation the games gets of your CPU, the better your framerate will be. GPU isn't as important as all settings will be on lowest and most players are playing in a lower resolution such as 1280x960.
 
-**CSGO doesn't seem to utilise many cores**, so 4 very fast (Clock and IPC) cores will give a good FPS.
+**CSGO doesn't seem to utilise many cores**, so 4 (ideally 6) very fast (Clock and IPC) cores will give a good FPS.
 
 **CPU clock speed boosting technologies** such as AMD's Precision Boost Overdrive **should be preferred over an all core overclock for CSGO**, unless you can get an all core OC higher than what PBO (or any equivalent) can provide.
 
