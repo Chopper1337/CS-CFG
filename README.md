@@ -167,7 +167,7 @@ Adjust **Texture Filtering Mode** and **MSAA** as these settings will impact per
 
 If you are a Windows user, **Windows 10 LTSC/Enterprise will run the game better** than the latest version from Microsoft. If you want as much resources put towards your own programs and games, such as CSGO, and not so much on random background telemetry and analytic programs, it's a good idea to switch to an LTSC/Enterprise version of Windows.
 
-For Linux users, make sure you're using a kernel optimised for gaming such as [TKG](https://github.com/Frogging-Family/linux-tkg "TKG"). Compile it with the best options for your CPU.
+For Linux users, make sure you're using a kernel optimised for gaming such as `linux-zen` or [linux-tkg](https://github.com/Frogging-Family/linux-tkg "TKG"). For `linux-zen`, compile it with the best options for your CPU.
 
 You can also use [Gamemode](https://github.com/FeralInteractive/gamemode "Gamemode") with the launch parameters `gamemoderun %command%`. Don't expect gamemode to add much FPS, but it will make a difference.
 
