@@ -7,15 +7,16 @@ This config is by "Chopper" not "[chopper](https://liquipedia.net/counterstrike/
 # Info
 Note that the binds in this CFG are created around the QWERTY UK keyboard layout
 
-**Last update**: 04/05/22
+**Last update**: 03/08/22
 
- **Mouse**: 1khz polling rate, 800dpi, 6/11 Windows sens. and 0.9 in game sens. ([Logitech G PRO Wired](https://www.amazon.co.uk/gp/product/B07L9FJS98))
+ **Mouse**: 1khz polling rate, 800dpi, 6/11 Windows sens. and 0.7 in game sens. ([Logitech G305](https://www.amazon.co.uk/Logitech-Wireless-Lightweight-Programmable-compatible/dp/B07CGPZ3ZQ))
  
  **Video**: 
  
  * Resolution: 1280x960
  * Uber Shaders enabled
- * MSAA and "Texture Filtering Mode" varies between disabled and 4x
+ * Shadows: High
+ * MSAA and "Texture Filtering Mode" varies between disabled and 2x
  * Everything else lowest.
  
  ([ASUS XG258Q](https://www.amazon.com/Asus-Ecran-PC-Gamer-XG258Q/dp/B075CKS1M4/), GTX 1080Ti)
@@ -92,7 +93,7 @@ Changes default tick rate to 128, this means matches you host (such as 1v1s) wil
 # Binds
 **Middle click**: Toggles scroll wheel between B-Hop and weapon switching
 
-**Insert**: Enters bot warmup
+**Insert**: Enters bot warmup (Disabled by default)
 
 **Home**: Switch to Spectator
 
