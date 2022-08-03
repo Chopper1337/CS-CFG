@@ -9,7 +9,7 @@ Note that the binds in this CFG are created around the QWERTY UK keyboard layout
 
 **Last update**: 03/08/22
 
- **Mouse**: 1khz polling rate, 800dpi, 6/11 Windows sens. and 0.7 in game sens. ([Logitech G305](https://www.amazon.co.uk/Logitech-Wireless-Lightweight-Programmable-compatible/dp/B07CGPZ3ZQ))
+ **Mouse**: 1khz polling rate, 800dpi and 0.7 in game sens. ([Logitech G305](https://www.amazon.co.uk/Logitech-Wireless-Lightweight-Programmable-compatible/dp/B07CGPZ3ZQ))
  
  **Video**: 
  
