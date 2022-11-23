@@ -189,7 +189,24 @@ Adjust **Texture Filtering Mode** and **MSAA** as these settings will impact per
 
 ## Windows
 
-**Windows 10 LTSC/Enterprise will run the game better** than the latest version from Microsoft. If you want as much resources put towards your own programs and games, such as CSGO, and not so much on random background telemetry and analytic programs, it's a good idea to switch to an LTSC/Enterprise version of Windows.
+On Windows, you'll likely have many processes running in the background which you never use. There are multiple ways to deal with this (in order of least to most effort) :
+
+### WinUtil
+
+First would be to use [`winutil`](https://github.com/ChrisTitusTech/winutil) on your current Windows installation to debloat it. **Make a backup before using this tool!**.
+
+*I personally haven't ran into issues after using it but I rarely use Windows and therefore don't rely on it to do much more than play FACEIT or other things I can't run on Linux.*
+
+### Windows LTSC
+
+Another solution would be to use **Windows 10 LTSC/Enterprise** as it comes with less bloat out of the box by default. You could even run `winutil` on Windows LTSC if you really want to minimise your install.
+
+### Custom ISO
+
+Finally, if you are very serious about getting the most out of Windows, research creating your own custom Windows ISO using a tool such as NTLite or MSMG Toolkit.
+
+Refer to [ChrisTitusTech](https://christitus.com/) guides such as [this one](https://christitus.com/setting-up-the-ultimate-windows-11/)
+
 
 Also, be sure that your Windows power profile is set to **High Performance** or a similar equivalent while playing to prevent CPU throttling.
 
