@@ -9,21 +9,21 @@ This config is by "Chopper" not "[chopper](https://liquipedia.net/counterstrike/
 
 Note that the binds in this CFG are created around the QWERTY UK keyboard layout
 
-**Last update**: 23/11/22
+**Last update**: 01/06/23
 
- **Mouse**: 1khz polling rate, 800dpi and 0.7 in game sens. ([Logitech G305](https://www.amazon.co.uk/Logitech-Wireless-Lightweight-Programmable-compatible/dp/B07CGPZ3ZQ))
+ **Mouse**: 1khz polling rate, 800dpi and 0.9 in game sens. ([Logitech G305](https://www.amazon.co.uk/Logitech-Wireless-Lightweight-Programmable-compatible/dp/B07CGPZ3ZQ))
  
  **Video**: 
  
  * Resolution: 
-    * Windows: 1024x768
-    * Linux: 1280x960
+    * Windows: 1440x1080
+    * Linux: 1440x1080
  * Uber Shaders enabled
  * Shadows: High
  * MSAA and "Texture Filtering Mode" varies between disabled and 2x
  * Everything else lowest.
  
- ([ASUS XG258Q](https://www.amazon.com/Asus-Ecran-PC-Gamer-XG258Q/dp/B075CKS1M4/), RX 6800)
+ ([ASUS XG258Q](https://www.amazon.com/Asus-Ecran-PC-Gamer-XG258Q/dp/B075CKS1M4/), RX 6800, R5 5600X)
  
 # Features
 * Modified rates based on ping
@@ -61,12 +61,12 @@ Note that the binds in this CFG are created around the QWERTY UK keyboard layout
 **4.** Modify or delete the crosshair section (Line 139). [View crosshair](https://github.com/Chopper1337/CSGO-CFG/raw/master/Screenshots/0screenshot.jpg)
 
 **5.** Save and drop the autoexec.cfg (and autowelcome.cfg ) into the following directory
-`\Counter-Strike Global Offensive\csgo\cfg\`<br>
+`Counter-Strike Global Offensive/csgo/cfg/`<br>
 
 (Right click CSGO -> Manage -> Browse local files)
 
 If you downloaded [video.txt](https://raw.githubusercontent.com/Chopper1337/CSGO-CFG/master/video.txt), place it in
-`\Steam\userdata\[YOUR USER ID]\730\local\cfg`
+`Steam/userdata/[YOUR USER ID]/730/local/cfg`
 
 Buy binds can be generated on [CSGOBindsGenerator.com](http://csgobindsgenerator.com/)
 
@@ -152,7 +152,7 @@ or
 
 **Negative/Minus**: Toggles voice_scale
 
-**Equals**: Adjusts game volume between the following values `1 0.7 0.1 0`
+<!-- **Equals**: Adjusts game volume between the following values `1 0.7 0.1 0` -->
 
 **Comma**: Ping crosshair location
 
