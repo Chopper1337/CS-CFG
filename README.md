@@ -1,4 +1,4 @@
-# Chopper's Counter-Strike: Global Offensive Configuation
+# Chopper's Counter-Strike: Global Offensive Configuration
 My CSGO config, based on [Budi's config](https://gist.github.com/nickbudi/3916475).
 
 This config is by "Chopper" not "[chopper](https://liquipedia.net/counterstrike/Chopper)", difference is he's pro, I'm not :))))
@@ -9,7 +9,7 @@ This config is by "Chopper" not "[chopper](https://liquipedia.net/counterstrike/
 
 Note that the binds in this CFG are created around the QWERTY UK keyboard layout
 
-**Last update**: 01/06/23
+**Last update**: 14/09/23
 
  **Mouse**: 1khz polling rate, 800dpi and 0.9 in game sens. ([Logitech G305](https://www.amazon.co.uk/Logitech-Wireless-Lightweight-Programmable-compatible/dp/B07CGPZ3ZQ))
  
@@ -23,12 +23,12 @@ Note that the binds in this CFG are created around the QWERTY UK keyboard layout
  * MSAA and "Texture Filtering Mode" varies between disabled and 2x
  * Everything else lowest.
  
- ([ASUS XG258Q](https://www.amazon.com/Asus-Ecran-PC-Gamer-XG258Q/dp/B075CKS1M4/), RX 6800, R5 5600X)
+ (ASUS XG258Q, RX 6800, R5 5600X)
  
 # Features
 * Modified rates based on ping
 * Jump throw bind
-* Togglable scroll B-Hop
+* Togglable mouse sensitivity 
 * Easy adjustments for game and voice volume
 * Various Half Life sounds for switching weapon, pressing the use key etc. (From [FranzJ](https://www.youtube.com/watch?v=KIck3ZEXIfU))
 * Radar size adjustment bind
@@ -112,7 +112,7 @@ or
 
 # Binds
 
-**Middle click**: Toggles scroll wheel between B-Hop and weapon switching
+**Middle click**: Toggles scroll wheel between low and high sensitivity
 
 **Insert**: Enters bot warmup (Disabled by default)
 
