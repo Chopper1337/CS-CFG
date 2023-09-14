@@ -23,3 +23,8 @@ Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
  * Scroll bhop
  * Easily switch between sensitivities
  * Improved viewmodel
+
+ # TODO
+
+ * Interaction sounds (switching weapon, interacting with doors, vents etc.)
+ * Add all common bindings such as wasd etc.
