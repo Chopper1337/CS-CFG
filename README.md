@@ -26,5 +26,6 @@ Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
 
  # TODO
 
+ * Make it automatically execute
  * Interaction sounds (switching weapon, interacting with doors, vents etc.)
  * Add all common bindings such as wasd etc.
