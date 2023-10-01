@@ -4,7 +4,7 @@
 
 Note that the binds in this CFG are created around the QWERTY UK keyboard layout
 
-**Last update**: 14/09/23
+**Last update**: 01/10/23
 
 Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
 
@@ -14,7 +14,12 @@ Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
  
  * Resolution: 
     * Windows: 1920x1080
- * Everything at lowest.
+    * Linux: 1280x960
+ * Shadows Very High
+ * FSR OFF
+ * 4xMSAA
+ * 16xAF
+ * Everything else at lowest.
  
  (ASUS XG258Q, RX 6800, R5 5600X)
  
