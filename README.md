@@ -4,7 +4,7 @@
 
 Note that the binds in this CFG are created around the QWERTY UK keyboard layout
 
-**Last update**: 01/10/23
+**Last update**: 09/10/23
 
 Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
 
@@ -13,7 +13,7 @@ Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
  **Video**: 
  
  * Resolution: 
-    * Windows: 1920x1080
+    * Windows: 1440x1080
     * Linux: 1280x960
  * Shadows Very High
  * FSR OFF
@@ -32,5 +32,7 @@ Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
  # TODO
 
  * Make it automatically execute
- * Interaction sounds (switching weapon, interacting with doors, vents etc.)
  * Add all common bindings such as wasd etc.
+ * Interaction sounds* (switching weapon, interacting with doors, vents etc.)
+
+*if possible
