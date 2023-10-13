@@ -4,11 +4,13 @@
 
 Note that the binds in this CFG are created around the QWERTY UK keyboard layout
 
-**Last update**: 09/10/23
+**Last update**: 13/10/23
 
 Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
 
  **Mouse**: 1khz polling rate, 800dpi and 0.9 in game sens. ([Logitech G305](https://www.amazon.co.uk/Logitech-Wireless-Lightweight-Programmable-compatible/dp/B07CGPZ3ZQ))
+
+ **Keyboard**: ZSA Moonlander - Kailh Copper switches - [Layout](https://configure.zsa.io/moonlander/layouts/vrKMn/latest/0)
  
  **Video**: 
  
@@ -17,7 +19,7 @@ Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
     * Linux: 1280x960
  * Shadows Very High
  * FSR OFF
- * 4xMSAA
+ * 2xMSAA
  * 16xAF
  * Everything else at lowest.
  
@@ -28,11 +30,34 @@ Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
  * Scroll bhop
  * Easily switch between sensitivities
  * Improved viewmodel
+ * Toggle crosshair recoil
+ * Optional "desubtick" of movement
+
+ # Communication Bindings
+
+ * **Enter** - Global chat
+ * **.** - Team chat
+ * **V** - Voice chat
+
+ # Util Bindings
+
+ * **T** - Molotov
+ * **4** - HE Grenade
+ * **Mouse 4** - Smoke
+ * **Mouse 5** - Flash
+
+ # Other Bindings
+
+ * **O** - Switch all movement bindings to use aliases to prevent subtick being used.
+ * **P** - Toggle crosshair recoil
+ * **1** and **2** (while holding tab) - Set mouse sensitivity to 0.9 or 1.8
+ * **DELETE** - Executes `autoexec.cfg`
+
 
  # TODO
 
  * Make it automatically execute
- * Add all common bindings such as wasd etc.
+ * Add all common bindings such as WASD etc.
  * Interaction sounds* (switching weapon, interacting with doors, vents etc.)
 
 *if possible
