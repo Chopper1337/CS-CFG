@@ -2,7 +2,9 @@
 
 # Info
 
-Note that the binds in this CFG are created around the QWERTY UK keyboard layout
+Note that the binds in this CFG are created around the QWERTY UK keyboard layout.
+
+You may need to add `+exec autoexec.cfg` to your game launch options.
 
 **Last update**: 18/10/23
 
@@ -47,14 +49,16 @@ Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
 
  # Other Bindings
 
+ * **I** - Fix audio delay*
  * **O** - Toggle crosshair recoil
  * **1** and **2** (while holding tab) - Set mouse sensitivity to 0.9 or 1.8
  * **DELETE** - Executes `autoexec.cfg`
 
+*In some cases, audio can become delayed (desynced from video) over time. The longer the game runs, the worse the delay gets.
+This switches the default audio device which resets the delay. Press this key whenever your audio seems delayed.
+
  # TODO
 
- * Make it automatically execute
- * Add all common bindings such as WASD etc.
  * Interaction sounds* (switching weapon, interacting with doors, vents etc.)
 
 *if possible
