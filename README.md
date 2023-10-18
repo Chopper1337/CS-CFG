@@ -4,13 +4,13 @@
 
 Note that the binds in this CFG are created around the QWERTY UK keyboard layout
 
-**Last update**: 13/10/23
+**Last update**: 18/10/23
 
 Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
 
  **Mouse**: 1khz polling rate, 800dpi and 0.9 in game sens. ([Logitech G305](https://www.amazon.co.uk/Logitech-Wireless-Lightweight-Programmable-compatible/dp/B07CGPZ3ZQ))
 
- **Keyboard**: ZSA Moonlander - Kailh Copper switches - [Layout](https://configure.zsa.io/moonlander/layouts/vrKMn/latest/0)
+ **Keyboard**: ZSA Moonlander - Gateron G Pro 2.0 Speed Silverswitches - [Layout](https://configure.zsa.io/moonlander/layouts/vrKMn/latest/0)
  
  **Video**: 
  
@@ -20,7 +20,7 @@ Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
  * Shadows Very High
  * FSR OFF
  * 2xMSAA
- * 16xAF
+ * 4xAF
  * Everything else at lowest.
  
  (ASUS XG258Q, RX 6800, R5 5600X)
@@ -31,7 +31,6 @@ Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
  * Easily switch between sensitivities
  * Improved viewmodel
  * Toggle crosshair recoil
- * Optional "desubtick" of movement
 
  # Communication Bindings
 
@@ -48,11 +47,9 @@ Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
 
  # Other Bindings
 
- * **O** - Switch all movement bindings to use aliases to prevent subtick being used.
- * **P** - Toggle crosshair recoil
+ * **O** - Toggle crosshair recoil
  * **1** and **2** (while holding tab) - Set mouse sensitivity to 0.9 or 1.8
  * **DELETE** - Executes `autoexec.cfg`
-
 
  # TODO
 
