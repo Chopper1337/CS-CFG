@@ -6,7 +6,7 @@ Note that the binds in this CFG are created around the QWERTY UK keyboard layout
 
 You may need to add `+exec autoexec.cfg` to your game launch options.
 
-**Last update**: 21/11/23
+**Last update**: {{date}}
 
 Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
 
