@@ -48,11 +48,14 @@ Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
  * **Mouse 4** - Smoke
  * **Mouse 5** - Flash
 
+ # While holding TAB
+ * **1** and **2** - Set mouse sensitivity to 0.9 or 1.8
+ * **Mouse 3** - Spray graffiti
+
  # Other Bindings
 
  * **I** - Fix audio delay*
  * **O** - Toggle crosshair recoil
- * **1** and **2** (while holding tab) - Set mouse sensitivity to 0.9 or 1.8
  * **DELETE** - Executes `autoexec.cfg`
 
 *In some cases, audio can become delayed (desynced from video) over time. The longer the game runs, the worse the delay gets.
