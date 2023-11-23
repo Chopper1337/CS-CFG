@@ -1,14 +1,16 @@
-# Chopper's Counter-Strike: 2 Configuration
+# {yourname}'s Counter-Strike: 2 Configuration
+
+ Generated with https://github.com/Chopper1337/CS-CFG/
 
 # Info
 
-Note that the binds in this CFG are created around the QWERTY UK keyboard layout.
+ Note that the binds in this CFG are created around the QWERTY UK keyboard layout.
 
-You may need to add `+exec autoexec.cfg` to your game launch options.
+ You may need to add `+exec autoexec.cfg` to your game launch options.
 
-**Last update**: 21/11/23
+ **Last update**: 23/11/23
 
-Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
+ Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
 
  **Mouse**: 1khz polling rate, 800dpi and 0.9 in game sens. ([Logitech G305](https://www.amazon.co.uk/Logitech-Wireless-Lightweight-Programmable-compatible/dp/B07CGPZ3ZQ))
 
@@ -27,7 +29,7 @@ Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
  
  (ASUS XG258Q, RX 6800, R5 5600X)
 
- # Generation
+# Generation
 
  The main `autoexec.cfg` file is generated via the `generate.sh` script, using the `template.cfg` as a base.
 
@@ -35,7 +37,7 @@ Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
 
  Currently there are only a few variables but adding more is simple.
  
- # Features
+# Features
  
  * Scroll bhop
  * Easily switch between sensitivities
@@ -43,13 +45,13 @@ Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
  * Toggle crosshair recoil
  * Targets acquired
 
- # Communication Bindings
+# Communication Bindings
 
  * **Enter** - Global chat
  * **.** - Team chat
  * **V** - Voice chat
 
- # Util Bindings
+# Util Bindings
 
  * **T** - Molotov
  * **4** - HE Grenade
@@ -60,7 +62,7 @@ Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
  * **1** and **2** - Set mouse sensitivity to 0.9 or 1.8
  * **Mouse 3** - Spray graffiti
 
- # Other Bindings
+# Other Bindings
 
  * **I** - Fix audio delay*
  * **O** - Toggle crosshair recoil
@@ -69,7 +71,7 @@ Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
 *In some cases, audio can become delayed (desynced from video) over time. The longer the game runs, the worse the delay gets.
 This switches the default audio device which resets the delay. Press this key whenever your audio seems delayed.
 
- # TODO
+# TODO
 
  * Interaction sounds* (switching weapon, interacting with doors, vents etc.)
 
