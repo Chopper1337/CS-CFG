@@ -10,7 +10,7 @@
 
  **Last update**: 23/11/23
 
- Crosshair code: `CSGO-s3oAd-CBNK9-aOct6-Oh7GE-TuFKO`
+ Crosshair code: `CSGO-Mhef3-Un2pm-V2irv-mBNa8-US88F`
 
  **Mouse**: 1khz polling rate, 800dpi and 0.9 in game sens. ([Logitech G305](https://www.amazon.co.uk/Logitech-Wireless-Lightweight-Programmable-compatible/dp/B07CGPZ3ZQ))
 
