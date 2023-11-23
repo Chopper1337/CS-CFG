@@ -47,9 +47,9 @@
 
 # Communication Bindings
 
- * **Enter** - Global chat
+ * **enter** - Global chat
  * **.** - Team chat
- * **V** - Voice chat
+ * **v** - Voice chat
 
 # Util Bindings
 

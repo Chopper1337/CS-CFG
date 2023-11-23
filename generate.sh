@@ -66,6 +66,11 @@ sed \
   -e "s|{{yourname}}|$yourname|g" \
   -e "s|{{date}}|$date|g" \
   -e "s|{{crosshaircode}}|$crosshaircode|g" \
+  -e "s|{{globalchat}}|$globalchat|g" \
+  -e "s|{{teamchat}}|$teamchat|g" \
+  -e "s|{{voicechat}}|$voicechat|g" \
+  -e "s|{{sensitivity}}|$sensitivity|g" \
+  -e "s|{{sensitivity_opt}}|$sensitivity_opt|g" \
   template.md > README.md
 
 echo "Config generated successfully: autoexec.cfg"
