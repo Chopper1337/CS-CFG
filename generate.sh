@@ -30,7 +30,7 @@ yourname="Chopper"
 yourrepo="https://github.com/Chopper1337/CS-CFG/" # If you created your own fork, link it here
 
 # Timestamps
-month=$(date "+%b")
+month=$(date "+%B")
 year=$(date "+%Y")
 date=$(date "+%d/%m/%y")
 
