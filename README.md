@@ -1,4 +1,4 @@
-# {yourname}'s Counter-Strike: 2 Configuration
+# Chopper's Counter-Strike: 2 Configuration
 
  Generated with https://github.com/Chopper1337/CS-CFG/
 
