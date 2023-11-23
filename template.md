@@ -47,9 +47,9 @@
 
 # Communication Bindings
 
- * **Enter** - Global chat
- * **.** - Team chat
- * **V** - Voice chat
+ * **{{globalchat}}** - Global chat
+ * **{{teamchat}}** - Team chat
+ * **{{voicechat}}** - Voice chat
 
 # Util Bindings
 
@@ -59,7 +59,7 @@
  * **Mouse 5** - Flash
 
  # While holding TAB
- * **1** and **2** - Set mouse sensitivity to 0.9 or 1.8
+ * **1** and **2** - Set mouse sensitivity to {{sensitivity}} or {{sensitivity_opt}}
  * **Mouse 3** - Spray graffiti
 
 # Other Bindings
