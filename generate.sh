@@ -26,7 +26,7 @@ voicechat="v"
 ping="mouse3"
 
 # Personalisation
-yourname="Chopper"
+yourname="CI Test"
 yourrepo="https://github.com/Chopper1337/CS-CFG/" # If you created your own fork, link it here
 
 # Timestamps
