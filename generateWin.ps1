@@ -1,12 +1,13 @@
 #
 
 # Settings
-$sensitivity="1.3"
+$sensitivity="0.9"
 $sensitivity_opt="1.8"
 $maxfps="999"
 $menufps="144"
 $gamma="2.3"
 $volume="1"
+$maxping="30"
 $crosshaircode="CSGO-Mhef3-Un2pm-V2irv-mBNa8-US88F"
 
 # Keyboard - movement
@@ -23,15 +24,15 @@ $crouch_opt="space"
 $globalchat="enter"
 $teamchat="."
 $voicechat="v"
-$ping="mouse3"
+$commsping="mouse3"
 
 # Personalisation
-$yourname="NotTofumi"
+$yourname="Chopper"
 $yourrepo="https://github.com/Chopper1337/CS-CFG/" # If you created your own fork, link it here
 
 # Timestamps
 $month=$(Get-Date -Format "MMMM")
-$year=$(Get-Date -Format "yy")
+$year=$(Get-Date -Format "yyyy")
 $date=$(Get-Date -Format "dd/MM/yy")
 
 
@@ -53,7 +54,8 @@ $date=$(Get-Date -Format "dd/MM/yy")
    -replace '{{globalchat}}', $globalchat `
    -replace '{{teamchat}}', $teamchat `
    -replace '{{voicechat}}', $voicechat `
-   -replace '{{ping}}', $ping `
+   -replace '{{commsping}}', $commsping `
+   -replace '{{maxping}}', $maxping `
    -replace '{{yourname}}', $yourname `
    -replace '{{yourrepo}}', $yourrepo `
    -replace '{{month}}', $month `
@@ -64,7 +66,12 @@ $date=$(Get-Date -Format "dd/MM/yy")
 (Get-Content template.md)`
     -replace '{{yourname}}' , $yourname `
     -replace '{{date}}', $date`
+    -replace '{{globalchat}}', $globalchat `
+    -replace '{{teamchat}}', $teamchat `
+    -replace '{{voicechat}}', $voicechat `
     -replace '{{crosshaircode}}', $crosshaircode `
+    -replace '{{sensitivity}}', $sensitivity `
+    -replace '{{sensitivity_opt}}', $sensitivity_opt `
     | Out-File -encoding ASCII README.md
 
 Write-Host "Config generated successfully: autoexec.cfg"
