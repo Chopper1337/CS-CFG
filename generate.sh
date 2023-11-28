@@ -7,6 +7,7 @@ maxfps="999"
 menufps="144"
 gamma="2.3"
 volume="1"
+maxping="30"
 crosshaircode="CSGO-Mhef3-Un2pm-V2irv-mBNa8-US88F"
 
 # Keyboard - movement
@@ -23,7 +24,7 @@ crouch_opt="space"
 globalchat="enter"
 teamchat="."
 voicechat="v"
-ping="mouse3"
+commsping="mouse3"
 
 # Personalisation
 yourname="Chopper"
@@ -54,7 +55,8 @@ sed \
   -e "s|{{globalchat}}|$globalchat|g" \
   -e "s|{{teamchat}}|$teamchat|g" \
   -e "s|{{voicechat}}|$voicechat|g" \
-  -e "s|{{ping}}|$ping|g" \
+  -e "s|{{commsping}}|$commsping|g" \
+  -e "s|{{maxping}}|$maxping|g" \
   -e "s|{{yourname}}|$yourname|g" \
   -e "s|{{yourrepo}}|$yourrepo|g" \
   -e "s|{{month}}|$month|g" \
