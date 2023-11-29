@@ -75,18 +75,18 @@ sed \
   -e "s|{{month}}|$month|g" \
   -e "s|{{year}}|$year|g" \
   -e "s|{{date}}|$date|g" \
-  template.cfg > autoexec.cfg
+  ./templates/template.cfg > autoexec.cfg
 
 # Read the template_laptop.cfg file and substitute variable values
 sed \
   -e "s|{{sensitivity_laptop}}|$sensitivity_laptop|g" \
   -e "s|{{sensitivity_laptop_opt}}|$sensitivity_laptop_opt|g" \
-  template_laptop.cfg > laptop.cfg
+  ./templates/template_laptop.cfg > laptop.cfg
 
 # Read the template_hvh.cfg file and substitute variable values
 sed \
   -e "s|{{sensitivity_hvh}}|$sensitivity_hvh|g" \
-  template_hvh.cfg > hvh.cfg
+  ./templates/template_hvh.cfg > hvh.cfg
 
 # Update README.md
 sed \
@@ -102,6 +102,6 @@ sed \
   -e "s|{{monitor}}|$monitor|g" \
   -e "s|{{gpu}}|$gpu|g" \
   -e "s|{{cpu}}|$cpu|g" \
-  template.md > README.md
+  ./templates/template.md > README.md
 
 echo "Config generated successfully: autoexec.cfg"

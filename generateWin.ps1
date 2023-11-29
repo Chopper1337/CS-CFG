@@ -46,7 +46,7 @@ $date = $(Get-Date -Format "dd/MM/yy")
 
 
 # Read the template.cfg file and substitute variable values
-(Get-Content template.cfg)`
+(Get-Content ./templates/template.cfg)`
     -replace '{{sensitivity}}', $sensitivity `
     -replace '{{sensitivity_opt}}', $sensitivity_opt `
     -replace '{{maxfps}}', $maxfps `
@@ -76,17 +76,17 @@ $date = $(Get-Date -Format "dd/MM/yy")
 | Out-File -encoding ASCII autoexec.cfg
 
 # Read the template_laptop.cfg file and substitute variable values
-(Get-Content template_laptop.cfg)`
+(Get-Content ./templates/template_laptop.cfg)`
     -replace '{{sensitivity_laptop}}', $sensitivity_laptop `
     -replace '{{sensitivity_laptop_opt}}', $sensitivity_laptop_opt `
 | Out-File -encoding ASCII laptop.cfg
 
 # Read the template_hvh.cfg file and substitute variable values
-(Get-Content template_hvh.cfg)`
+(Get-Content ./templates/template_hvh.cfg)`
     -replace '{{sensitivity_hvh}}', $sensitivity_hvh `
 | Out-File -encoding ASCII hvh.cfg
 
-(Get-Content template.md)`
+(Get-Content ./templates/template.md)`
     -replace '{{yourname}}' , $yourname `
     -replace '{{date}}', $date`
     -replace '{{globalchat}}', $globalchat `
