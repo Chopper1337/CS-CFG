@@ -30,7 +30,14 @@ commsping="mouse3"
 yourname="Chopper"
 yourrepo="https://github.com/Chopper1337/CS-CFG/" # If you created your own fork, link it here
 
-# Timestamps
+# Laptop (Optional)
+sensitivity_laptop="1.8"
+sensitivity_laptop_opt="3.6"
+
+# HVH (Optional)
+sensitivity_hvh="5"
+
+# Timestamps (Do not modify)
 month=$(date "+%B")
 year=$(date "+%Y")
 date=$(date "+%d/%m/%y")
@@ -62,6 +69,17 @@ sed \
   -e "s|{{month}}|$month|g" \
   -e "s|{{year}}|$year|g" \
   template.cfg > autoexec.cfg
+
+# Read the template_laptop.cfg file and substitute variable values
+sed \
+  -e "s|{{sensitivity_laptop}}|$sensitivity_laptop|g" \
+  -e "s|{{sensitivity_laptop_opt}}|$sensitivity_laptop_opt|g" \
+  template_laptop.cfg > laptop.cfg
+
+# Read the template_hvh.cfg file and substitute variable values
+sed \
+  -e "s|{{sensitivity_hvh}}|$sensitivity_hvh|g" \
+  template_hvh.cfg > hvh.cfg
 
 # Update README.md
 sed \
