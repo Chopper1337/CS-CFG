@@ -25,22 +25,27 @@
 
 **Hardware**
 
-* Monitor: {{monitor}}
-* GPU: {{GPU}}
-* CPU: {{CPU}}
+ * Monitor: {{monitor}}
+ * GPU: {{GPU}}
+ * CPU: {{CPU}}
 
 # Generation
 
- The main `autoexec.cfg` file is generated via the `generate.sh` script, using the `template.cfg` as a base.
-
- To make changes to the config, we edit the script's variables.
-
- Currently there are only a few variables but adding more is simple.
+ 1. Open the generation script you will be using.
  
+    If you are on **Linux**, use `generate.sh`.
+    
+    On **Windows**, use `generateWin.ps1`.
+
+ 2. Replace the values for the variables per your preference.
+
+ 3. Run the generation script.
+
+
 # Features
  
  * Scroll bhop
- * Easily switch between sensitivities
+ * Easily switch between two different mouse sensitivities
  * Improved viewmodel
  * Toggle crosshair recoil
  * Targets acquired
@@ -73,11 +78,17 @@ This switches the default audio device which resets the delay. Press this key wh
 
 # Screenshots
 
-![autoexec.cfg](./images/autoexec.cfg.png)
-![config command](./images/config.png)
+ Upon executing autoexec.cfg:
+
+ ![autoexec.cfg](./images/autoexec.cfg.png)
+
+ The 'config' command:
+
+ ![config command](./images/config.png)
 
 # TODO
 
  * Interaction sounds* (switching weapon, interacting with doors, vents etc.)
+ * Move all variables into a variables file which both bash and ps can refer to.
 
-*if possible
+ *if possible
