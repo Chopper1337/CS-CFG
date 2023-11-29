@@ -23,7 +23,7 @@
  * FSR: OFF
  * Everything else at lowest.
 
-**Hardware**
+**Hardware**:
 
  * Monitor: ASUS XG258Q
  * GPU: RX 6800
