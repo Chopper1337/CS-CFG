@@ -18,16 +18,16 @@
  
  **Video**: 
  
- * Resolution: 
-    * Windows: 1440x1080
-    * Linux: 1280x960
- * Shadows High
- * FSR OFF
- * 2xMSAA
- * 4xAF
+ * Resolution: {{resolution}}
+ * Shadows: High
+ * FSR: OFF
  * Everything else at lowest.
- 
- (ASUS XG258Q, RX 6800, R5 5600X)
+
+**Hardware**
+
+* Monitor: {{monitor}}
+* GPU: {{GPU}}
+* CPU: {{CPU}}
 
 # Generation
 

@@ -9,6 +9,7 @@ gamma="2.3"
 volume="1"
 maxping="30"
 crosshaircode="CSGO-Mhef3-Un2pm-V2irv-mBNa8-US88F"
+resolution="1280x960"
 
 # Keyboard - movement
 forward="w"
@@ -29,6 +30,9 @@ commsping="mouse3"
 # Personalisation
 yourname="Chopper"
 yourrepo="https://github.com/Chopper1337/CS-CFG/" # If you created your own fork, link it here
+monitor="ASUS XG258Q"
+GPU="RX 6800"
+CPU="R5 5600X"
 
 # Laptop (Optional)
 sensitivity_laptop="1.8"
@@ -66,8 +70,11 @@ sed \
   -e "s|{{maxping}}|$maxping|g" \
   -e "s|{{yourname}}|$yourname|g" \
   -e "s|{{yourrepo}}|$yourrepo|g" \
+  -e "s|{{resolution}}|$resolution|g" \
+  -e "s|{{crosshaircode}}|$crosshaircode|g" \
   -e "s|{{month}}|$month|g" \
   -e "s|{{year}}|$year|g" \
+  -e "s|{{date}}|$date|g" \
   template.cfg > autoexec.cfg
 
 # Read the template_laptop.cfg file and substitute variable values
@@ -91,6 +98,10 @@ sed \
   -e "s|{{voicechat}}|$voicechat|g" \
   -e "s|{{sensitivity}}|$sensitivity|g" \
   -e "s|{{sensitivity_opt}}|$sensitivity_opt|g" \
+  -e "s|{{resolution}}|$resolution|g" \
+  -e "s|{{monitor}}|$monitor|g" \
+  -e "s|{{gpu}}|$gpu|g" \
+  -e "s|{{cpu}}|$cpu|g" \
   template.md > README.md
 
 echo "Config generated successfully: autoexec.cfg"
