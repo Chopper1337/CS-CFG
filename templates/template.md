@@ -23,7 +23,7 @@
  * FSR: OFF
  * Everything else at lowest.
 
-**Hardware**
+**Hardware**:
 
  * Monitor: {{monitor}}
  * GPU: {{GPU}}
@@ -88,7 +88,7 @@ This switches the default audio device which resets the delay. Press this key wh
 
 # TODO
 
- * Interaction sounds* (switching weapon, interacting with doors, vents etc.)
  * Move all variables into a variables file which both bash and ps can refer to.
+ * Interaction sounds* (switching weapon, interacting with doors, vents etc.)
 
- *if possible
+ *not yet possible (afaik)
