@@ -71,6 +71,11 @@
 *In some cases, audio can become delayed (desynced from video) over time. The longer the game runs, the worse the delay gets.
 This switches the default audio device which resets the delay. Press this key whenever your audio seems delayed.
 
+# Screenshots
+
+![autoexec.cfg](./images/autoexec.cfg.png)
+![config command](./images/config.png)
+
 # TODO
 
  * Interaction sounds* (switching weapon, interacting with doors, vents etc.)
