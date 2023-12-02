@@ -8,13 +8,13 @@
 
  You may need to add `+exec autoexec.cfg` to your game launch options.
 
- **Last update**: 29/11/23
+ **Last update**: 02/12/23
 
  Crosshair code: `CSGO-Mhef3-Un2pm-V2irv-mBNa8-US88F`
 
- **Mouse**: 1khz polling rate, 800dpi and 0.9 in game sens. ([Logitech G305](https://www.amazon.co.uk/Logitech-Wireless-Lightweight-Programmable-compatible/dp/B07CGPZ3ZQ))
+ **Mouse**: 1KHz polling rate, 800 DPI and 0.9 in game sens. ([Logitech G305](https://www.amazon.co.uk/Logitech-Wireless-Lightweight-Programmable-compatible/dp/B07CGPZ3ZQ))
 
- **Keyboard**: ZSA Moonlander - Gateron G Pro 2.0 Speed Silverswitches - [Layout](https://configure.zsa.io/moonlander/layouts/vrKMn/latest/0)
+ **Keyboard**: [ZSA Moonlander](https://www.zsa.io/moonlander/) - Gateron G Pro 2.0 Speed Silver switches [(custom layout)](https://configure.zsa.io/moonlander/layouts/vrKMn/latest/0)
  
  **Video**: 
  
