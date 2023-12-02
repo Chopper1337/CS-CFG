@@ -12,9 +12,9 @@
 
  Crosshair code: `{{crosshaircode}}`
 
- **Mouse**: 1khz polling rate, 800dpi and 0.9 in game sens. ([Logitech G305](https://www.amazon.co.uk/Logitech-Wireless-Lightweight-Programmable-compatible/dp/B07CGPZ3ZQ))
+ **Mouse**: {{mouse_polling_rate}} polling rate, {{mouse_dpi}} DPI and {{sensitivity}} in game sens. ([{{mouse}}]({{mouse_link}}))
 
- **Keyboard**: ZSA Moonlander - Gateron G Pro 2.0 Speed Silverswitches - [Layout](https://configure.zsa.io/moonlander/layouts/vrKMn/latest/0)
+ **Keyboard**: [{{keyboard}}]({{keyboard_link}}) - {{keyboard_switches}} switches [{{keyboard_opt_1}}]({{keyboard_opt_2}})
  
  **Video**: 
  
@@ -26,8 +26,8 @@
 **Hardware**:
 
  * Monitor: {{monitor}}
- * GPU: {{GPU}}
- * CPU: {{CPU}}
+ * GPU: {{gpu}}
+ * CPU: {{cpu}}
 
 # Generation
 
