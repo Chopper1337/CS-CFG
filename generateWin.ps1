@@ -31,6 +31,15 @@ $yourrepo = "https://github.com/Chopper1337/CS-CFG/" # If you created your own f
 $monitor = "ASUS XG258Q"
 $gpu = "RX 6800"
 $cpu = "R5 5600X"
+$mouse="Logitech G305"
+$mouse_link="https://www.amazon.co.uk/Logitech-Wireless-Lightweight-Programmable-compatible/dp/B07CGPZ3ZQ"
+$mouse_polling_rate="1KHz"
+$mouse_dpi="800"
+$keyboard="ZSA Moonlander"
+$keyboard_link="https://www.zsa.io/moonlander/"
+$keyboard_switches="Gateron G Pro 2.0 Speed Silver"
+$keyboard_opt_1="(custom layout)"
+$keyboard_opt_2="https://configure.zsa.io/moonlander/layouts/vrKMn/latest/0"
 
 # Laptop (Optional)
 $sensitivity_laptop = "1.8"
@@ -99,6 +108,15 @@ $date = $(Get-Date -Format "dd/MM/yy")
     -replace '{{monitor}}', $monitor `
     -replace '{{gpu}}', $gpu `
     -replace '{{cpu}}', $cpu `
+    -replace '{{mouse}}', $mouse `
+    -replace '{{mouse_link}}', $mouse_link `
+    -replace '{{mouse_polling_rate}}', $mouse_polling_rate `
+    -replace '{{mouse_dpi}}', $mouse_dpi `
+    -replace '{{keyboard}}', $keyboard `
+    -replace '{{keyboard_link}}', $keyboard_link `
+    -replace '{{keyboard_switches}}', $keyboard_switches `
+    -replace '{{keyboard_opt_1}}', $keyboard_opt_1 `
+    -replace '{{keyboard_opt_2}}', $keyboard_opt_2 `
 | Out-File -encoding ASCII README.md
 
 Write-Host "Config generated successfully: autoexec.cfg"
