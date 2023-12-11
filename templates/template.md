@@ -18,29 +18,19 @@
  
  **Video**: 
  
- * Resolution: {{resolution}}
- * Shadows: High
- * FSR: OFF
- * Everything else at lowest.
+ Resolution: {{resolution}}
+
+ ![Video](images/video.png)
+
+ **Audio**: 
+
+ ![Audio](images/audio.png)
 
 **Hardware**:
 
  * Monitor: {{monitor}}
  * GPU: {{gpu}}
  * CPU: {{cpu}}
-
-# Generation
-
- 1. Open the generation script you will be using.
- 
-    If you are on **Linux**, use `generate.sh`.
-    
-    On **Windows**, use `generateWin.ps1`.
-
- 2. Replace the values for the variables per your preference.
-
- 3. Run the generation script.
-
 
 # Features
  
@@ -85,6 +75,21 @@ This switches the default audio device which resets the delay. Press this key wh
  The 'config' command:
 
  ![config command](./images/config.png)
+
+# Generation
+
+ 1. Open the generation script you will be using.
+ 
+    If you are on **Linux**, use `generate.sh`.
+    
+    On **Windows**, use `generateWin.ps1`.
+
+ 2. Replace the values for the variables per your preference.
+
+ 3. Replace the `video.png` and `audio.png` screenshots in the images folder.
+
+ 4. Run the generation script.
+
 
 # TODO
 
