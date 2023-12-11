@@ -32,19 +32,6 @@
  * GPU: RX 6800
  * CPU: R5 5600X
 
-# Generation
-
- 1. Open the generation script you will be using.
- 
-    If you are on **Linux**, use `generate.sh`.
-    
-    On **Windows**, use `generateWin.ps1`.
-
- 2. Replace the values for the variables per your preference.
-
- 3. Run the generation script.
-
-
 # Features
  
  * Scroll bhop
@@ -88,6 +75,21 @@ This switches the default audio device which resets the delay. Press this key wh
  The 'config' command:
 
  ![config command](./images/config.png)
+
+# Generation
+
+ 1. Open the generation script you will be using.
+ 
+    If you are on **Linux**, use `generate.sh`.
+    
+    On **Windows**, use `generateWin.ps1`.
+
+ 2. Replace the values for the variables per your preference.
+
+ 3. Replace the `video.png` and `audio.png` screenshots in the images folder.
+
+ 4. Run the generation script.
+
 
 # TODO
 
