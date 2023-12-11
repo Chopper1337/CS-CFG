@@ -8,7 +8,7 @@
 
  You may need to add `+exec autoexec.cfg` to your game launch options.
 
- **Last update**: 08/12/23
+ **Last update**: 11/12/23
 
  Crosshair code: `CSGO-Mhef3-Un2pm-V2irv-mBNa8-US88F`
 
@@ -18,10 +18,13 @@
  
  **Video**: 
  
- * Resolution: 1280x960
- * Shadows: High
- * FSR: OFF
- * Everything else at lowest.
+ Resolution: 1280x960
+
+ ![Video](images/video.png)
+
+ **Audio**: 
+
+ ![Audio](images/audio.png)
 
 **Hardware**:
 
