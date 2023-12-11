@@ -89,11 +89,3 @@ This switches the default audio device which resets the delay. Press this key wh
  3. Replace the `video.png` and `audio.png` screenshots in the images folder.
 
  4. Run the generation script.
-
-
-# TODO
-
- * Move all variables into a variables file which both bash and ps can refer to.
- * Interaction sounds* (switching weapon, interacting with doors, vents etc.)
-
- *not yet possible (afaik)
