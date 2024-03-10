@@ -11,6 +11,29 @@ maxping="26"
 crosshaircode="CSGO-QwBne-zCdHX-eCHSD-uVcNU-cmtOH"
 resolution="1280x960"
 
+# Crosshair
+crosshair="true"
+crosshair_drawoutline="true"
+crosshair_friendly_warning="0"
+crosshair_outlinethickness="0.5"
+crosshair_recoil="false"
+crosshair_sniper_width="1"
+crosshair_t="false"
+crosshairalpha="255"
+crosshaircolor="5"
+crosshaircolor_b="0"
+crosshaircolor_g="255"
+crosshaircolor_r="0"
+crosshairdot="false"
+crosshairgap="-0.6"
+crosshairgap_useweaponvalue="false"
+crosshairsize="3.6"
+crosshairstyle="4"
+crosshairthickness="0.6"
+crosshairusealpha="true"
+fixedcrosshairgap="3"
+show_observer_crosshair="1"
+
 # Keyboard - movement
 forward="w"
 back="s"
@@ -84,6 +107,27 @@ sed \
   -e "s|{{month}}|$month|g" \
   -e "s|{{year}}|$year|g" \
   -e "s|{{date}}|$date|g" \
+  -e "s|{{crosshair}}|$crosshair|g" \
+  -e "s|{{crosshair_drawoutline}}|$crosshair_drawoutline|g" \
+  -e "s|{{crosshair_friendly_warning}}|$crosshair_friendly_warning|g" \
+  -e "s|{{crosshair_outlinethickness}}|$crosshair_outlinethickness|g" \
+  -e "s|{{crosshair_recoil}}|$crosshair_recoil|g" \
+  -e "s|{{crosshair_sniper_width}}|$crosshair_sniper_width|g" \
+  -e "s|{{crosshair_t}}|$crosshair_t|g" \
+  -e "s|{{crosshairalpha}}|$crosshairalpha|g" \
+  -e "s|{{crosshaircolor}}|$crosshaircolor|g" \
+  -e "s|{{crosshaircolor_b}}|$crosshaircolor_b|g" \
+  -e "s|{{crosshaircolor_g}}|$crosshaircolor_g|g" \
+  -e "s|{{crosshaircolor_r}}|$crosshaircolor_r|g" \
+  -e "s|{{crosshairdot}}|$crosshairdot|g" \
+  -e "s|{{crosshairgap}}|$crosshairgap|g" \
+  -e "s|{{crosshairgap_useweaponvalue}}|$crosshairgap_useweaponvalue|g" \
+  -e "s|{{crosshairsize}}|$crosshairsize|g" \
+  -e "s|{{crosshairstyle}}|$crosshairstyle|g" \
+  -e "s|{{crosshairthickness}}|$crosshairthickness|g" \
+  -e "s|{{crosshairusealpha}}|$crosshairusealpha|g" \
+  -e "s|{{fixedcrosshairgap}}|$fixedcrosshairgap|g" \
+  -e "s|{{show_observer_crosshair}}|$show_observer_crosshair|g" \
   ./templates/template.cfg > autoexec.cfg
 
 # Read the template_laptop.cfg file and substitute variable values
