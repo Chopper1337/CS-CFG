@@ -8,9 +8,9 @@
 
  You may need to add `+exec autoexec.cfg` to your game launch options.
 
- **Last update**: 19/12/23
+ **Last update**: 10/03/24
 
- Crosshair code: `CSGO-Mhef3-Un2pm-V2irv-mBNa8-US88F`
+ Crosshair code: `CSGO-QwBne-zCdHX-eCHSD-uVcNU-cmtOH`
 
  **Mouse**: 1KHz polling rate, 800 DPI and 0.9 in game sens. ([Logitech G305](https://www.amazon.co.uk/Logitech-Wireless-Lightweight-Programmable-compatible/dp/B07CGPZ3ZQ))
 

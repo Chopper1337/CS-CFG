@@ -8,7 +8,7 @@ menufps="144"
 gamma="2.3"
 volume="1"
 maxping="26"
-crosshaircode="CSGO-Mhef3-Un2pm-V2irv-mBNa8-US88F"
+crosshaircode="CSGO-QwBne-zCdHX-eCHSD-uVcNU-cmtOH"
 resolution="1280x960"
 
 # Keyboard - movement
