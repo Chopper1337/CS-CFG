@@ -9,6 +9,29 @@ $maxping = "26"
 $crosshaircode = "CSGO-QwBne-zCdHX-eCHSD-uVcNU-cmtOH"
 $resolution = "1280x960"
 
+# Crosshair
+$crosshair="true"
+$crosshair_drawoutline="true"
+$crosshair_friendly_warning="0"
+$crosshair_outlinethickness="0.5"
+$crosshair_recoil="false"
+$crosshair_sniper_width="1"
+$crosshair_t="false"
+$crosshairalpha="255"
+$crosshaircolor="5"
+$crosshaircolor_b="0"
+$crosshaircolor_g="255"
+$crosshaircolor_r="0"
+$crosshairdot="false"
+$crosshairgap="-0.6"
+$crosshairgap_useweaponvalue="false"
+$crosshairsize="3.6"
+$crosshairstyle="4"
+$crosshairthickness="0.6"
+$crosshairusealpha="true"
+$fixedcrosshairgap="3"
+$show_observer_crosshair="1"
+
 # Keyboard - movement
 $forward = "w"
 $back = "s"
@@ -81,7 +104,28 @@ $date = $(Get-Date -Format "dd/MM/yy")
     -replace '{{crosshaircode}}', $crosshaircode `
     -replace '{{month}}', $month `
     -replace '{{year}}' , $year `
-    -replace '{{date}}', $date`
+    -replace '{{date}}', $date  `
+    -replace '{{crosshair}}', $crosshair  `
+    -replace '{{crosshair_drawoutline}}', $crosshair_drawoutline `
+    -replace '{{crosshair_friendly_warning}}', $crosshair_friendly_warning `
+    -replace '{{crosshair_outlinethickness}}', $crosshair_outlinethickness `
+    -replace '{{crosshair_recoil}}', $crosshair_recoil `
+    -replace '{{crosshair_sniper_width}}', $crosshair_sniper_width `
+    -replace '{{crosshair_t}}', $crosshair_t `
+    -replace '{{crosshairalpha}}', $crosshairalpha `
+    -replace '{{crosshaircolor}}', $crosshaircolor `
+    -replace '{{crosshaircolor_b}}', $crosshaircolor_b `
+    -replace '{{crosshaircolor_g}}', $crosshaircolor_g `
+    -replace '{{crosshaircolor_r}}', $crosshaircolor_r `
+    -replace '{{crosshairdot}}', $crosshairdot `
+    -replace '{{crosshairgap}}', $crosshairgap `
+    -replace '{{crosshairgap_useweaponvalue}}', $crosshairgap_useweaponvalue `
+    -replace '{{crosshairsize}}', $crosshairsize `
+    -replace '{{crosshairstyle}}', $crosshairstyle `
+    -replace '{{crosshairthickness}}', $crosshairthickness `
+    -replace '{{crosshairusealpha}}', $crosshairusealpha `
+    -replace '{{fixedcrosshairgap}}', $fixedcrosshairgap `
+    -replace '{{show_observer_crosshair}}', $show_observer_crosshair `
 | Out-File -encoding ASCII autoexec.cfg
 
 # Read the template_laptop.cfg file and substitute variable values
