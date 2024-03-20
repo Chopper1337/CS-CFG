@@ -8,7 +8,7 @@
 
  You may need to add `+exec autoexec.cfg` to your game launch options.
 
- **Last update**: 10/03/24
+ **Last update**: 20/03/24
 
  Crosshair code: `CSGO-QwBne-zCdHX-eCHSD-uVcNU-cmtOH`
 
@@ -18,7 +18,7 @@
  
  **Video**: 
  
- Resolution: 1280x960
+ Resolution: 1440x1080
 
  ![Video](images/video.png)
 
