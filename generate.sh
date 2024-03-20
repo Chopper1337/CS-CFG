@@ -9,7 +9,7 @@ gamma="2.3"
 volume="1"
 maxping="26"
 crosshaircode="CSGO-QwBne-zCdHX-eCHSD-uVcNU-cmtOH"
-resolution="1280x960"
+resolution="1440x1080"
 
 # Crosshair
 crosshair="true"
