@@ -31,6 +31,7 @@ $crosshairthickness="0.6"
 $crosshairusealpha="true"
 $fixedcrosshairgap="3"
 $show_observer_crosshair="1"
+$left_handed="1"
 
 # Keyboard - movement
 $forward = "w"
@@ -126,6 +127,7 @@ $date = $(Get-Date -Format "dd/MM/yy")
     -replace '{{crosshairusealpha}}', $crosshairusealpha `
     -replace '{{fixedcrosshairgap}}', $fixedcrosshairgap `
     -replace '{{show_observer_crosshair}}', $show_observer_crosshair `
+    -replace '{{left_handed}}', $left_handed `
 | Out-File -encoding ASCII autoexec.cfg
 
 # Read the template_laptop.cfg file and substitute variable values

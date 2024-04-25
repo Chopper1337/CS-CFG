@@ -34,6 +34,9 @@ crosshairusealpha="true"
 fixedcrosshairgap="3"
 show_observer_crosshair="1"
 
+# Weapon positioning
+left_handed="1"
+
 # Keyboard - movement
 forward="w"
 back="s"
@@ -128,6 +131,7 @@ sed \
   -e "s|{{crosshairusealpha}}|$crosshairusealpha|g" \
   -e "s|{{fixedcrosshairgap}}|$fixedcrosshairgap|g" \
   -e "s|{{show_observer_crosshair}}|$show_observer_crosshair|g" \
+  -e "s|{{left_handed}}|$left_handed|g" \
   ./templates/template.cfg > autoexec.cfg
 
 # Read the template_laptop.cfg file and substitute variable values
