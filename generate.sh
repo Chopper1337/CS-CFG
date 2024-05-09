@@ -5,11 +5,11 @@ sensitivity="0.9"
 sensitivity_opt="1.8"
 maxfps="999"
 menufps="144"
-gamma="2.3"
+gamma="2.764991"
 volume="1"
 maxping="26"
 crosshaircode="CSGO-QwBne-zCdHX-eCHSD-uVcNU-cmtOH"
-resolution="1440x1080"
+resolution="1280x960"
 
 # Crosshair
 crosshair="true"
