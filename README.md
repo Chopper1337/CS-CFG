@@ -8,7 +8,7 @@
 
  You may need to add `+exec autoexec.cfg` to your game launch options.
 
- **Last update**: 09/05/24
+ **Last update**: 28/07/24
 
  Crosshair code: `CSGO-QwBne-zCdHX-eCHSD-uVcNU-cmtOH`
 
@@ -61,6 +61,7 @@
 
  * **I** - Fix audio delay*
  * **O** - Toggle crosshair recoil
+ * **U** - Toggle null binds
  * **DELETE** - Executes `autoexec.cfg`
 
 *In some cases, audio can become delayed (desynced from video) over time. The longer the game runs, the worse the delay gets.

@@ -61,6 +61,7 @@
 
  * **I** - Fix audio delay*
  * **O** - Toggle crosshair recoil
+ * **U** - Toggle null binds
  * **DELETE** - Executes `autoexec.cfg`
 
 *In some cases, audio can become delayed (desynced from video) over time. The longer the game runs, the worse the delay gets.
