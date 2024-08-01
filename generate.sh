@@ -1,5 +1,12 @@
 #!/bin/bash
 
+deps=( sed echo )
+
+for dep in ${deps[@]}
+do 
+  which $dep || exit
+done
+
 # Settings
 sensitivity="0.9"
 sensitivity_opt="1.8"
