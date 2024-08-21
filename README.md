@@ -18,7 +18,7 @@
  
  **Video**: 
  
- Resolution: 1280x960
+ Resolution: 1440x1080
 
  ![Video](images/video.png)
 
