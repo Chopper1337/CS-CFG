@@ -8,7 +8,7 @@
 
  You may need to add `+exec autoexec.cfg` to your game launch options.
 
- **Last update**: 01/08/24
+ **Last update**: 21/08/24
 
  Crosshair code: `CSGO-QwBne-zCdHX-eCHSD-uVcNU-cmtOH`
 
