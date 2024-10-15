@@ -1,6 +1,6 @@
 # Settings
-$sensitivity = "0.9"
-$sensitivity_opt = "1.8"
+$sensitivity = "0.7"
+$sensitivity_opt = "1.4"
 $maxfps = "999"
 $menufps = "144"
 $gamma="2.012514"
@@ -20,7 +20,7 @@ $crosshair_t="false"
 $crosshairalpha="255"
 $crosshaircolor="5"
 $crosshaircolor_b="0"
-$crosshaircolor_g="255"
+$crosshaircolor_g="255
 $crosshaircolor_r="0"
 $crosshairdot="false"
 $crosshairgap="-0.6"
